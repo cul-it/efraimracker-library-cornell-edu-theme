@@ -1,0 +1,25 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	body { font-size: 90%; }
+	.navbar {
+		.container { width: 940px; }
+		.brand { 
+			font-size: 3em;
+			padding-bottom: 5px; }
+		.subtitle { margin-left: 110px; }
+	}
+	.about-racker {
+		p { width: 60%; }
+	}
+	.album-thumbnails {
+		img { max-width: 130px; }
+	}
+	.callout-box {
+		margin-top: -310px;
+		width: 300px;
+	}
+}

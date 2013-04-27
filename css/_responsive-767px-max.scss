@@ -1,0 +1,83 @@
+//
+// Responsive: Landscape phone to desktop/tablet
+// --------------------------------------------------
+
+@media (max-width: 767px) {
+	body { 
+		padding: 0;
+		margin: 0;
+		font-size: 90%; }
+	.navbar {
+		padding-bottom: 15px;
+		.container { 
+			width: auto;
+			padding: 0 10px; }
+		.btn-navbar {
+			background: $darkTeal;
+			margin-top: 30px;
+		}
+		.btn-navbar:hover { background: $darkTeal; }
+		.nav {
+			float: none;
+			padding: 5px 0;
+			li {
+				a,
+				a:hover {
+					background-image: none;
+					border: 0; }
+				a { 
+					color: white;
+					font-weight: normal; }
+			}
+		}
+	}
+	.container { padding: 0 10px; }
+	.nav-collapse {
+		background: $darkTeal;
+		margin-top: 10px;
+		.nav > li > a:hover { 
+			font-weight: normal;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0; }
+		.nav { margin: 0; }
+		.nav > li > a { margin-bottom: 0; }
+	}
+	.search-box {
+	  input.search-query { 
+	  	background: white;
+	  	color: $darkGray; }
+	}
+	.about-racker {
+		p { 
+			width: 95%;
+			float: none; }
+		img { margin-bottom: 15px; }
+	}
+	.albums { 
+		clear: both;
+		img { width: 130px; }
+	}
+	footer {
+		.container { padding: 20px 10px;}
+	}
+	.callout-box {
+		float: none;
+		margin-top: 0;
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 30px;
+		h3 {
+			font-weight: 400;
+			font-size: 1.5em;
+			padding: 20px;
+			line-height: 1.2em;
+			.name { 
+				display: inline;
+				font-size: inherit;
+				font-weight: inherit; }
+			.years { font-size: 80%; }
+		}
+	}
+}
+

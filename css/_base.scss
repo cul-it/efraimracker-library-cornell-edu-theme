@@ -1,0 +1,39 @@
+body {
+	font-size: 100%;
+	font-family: $baseFontFamily;
+	font-weight: 400;
+	color: $textColorDark;
+	background: $darkTeal;
+}
+
+/* Links */
+/*------------------------------*/
+a { color: $linkPrimary;}
+a:visited {}
+a:hover { text-decoration: none; }
+a:active { }
+
+
+/* Typography */
+/*------------------------------*/
+
+h2 {
+	background: $secondaryColor;
+	color: white;
+	padding: 5px 20px ;
+	font-size: 1.625em;
+	font-weight: 200;
+	margin-bottom: 1em;
+	text-align: left;
+	display: inline-block; }
+
+/* Images */
+/*------------------------------*/
+
+img {
+	padding: 5px;
+	background: $paleTeal;
+}
+
+/* Miscellaneous */
+/*------------------------------*/

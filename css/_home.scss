@@ -1,0 +1,107 @@
+/* Slideshow */
+/*------------------------------*/
+
+.hero {
+	background: $primaryColor; }
+.carousel { 
+	border: 2px solid white;
+	z-index: 10;
+	img {
+		padding: 0; }
+}
+
+/* Callout box */
+/*------------------------------*/
+.callout-box {
+	position: relative;
+	z-index: 100;
+	margin-top: -350px;
+	float: right;
+	width: 350px;
+	margin-right: 70px;
+	h3 {
+		background: $darkRed;
+		opacity: .9;
+		padding: 10px;
+		margin: 0;
+		font-weight: bold;
+		font-size: 2.25em;
+		color: white;
+		line-height: 1em;
+		text-align: center;
+		.years { 
+			display: block;
+			font-size: 50%;
+			font-weight: 200; }
+		.name { 
+			display: block;
+			font-weight: 400;
+			font-size: 70%; }
+	}
+	p {
+		background: black;
+		opacity: .9;
+		margin: 0;
+		padding: 20px;
+		color: #cca4ab;
+	}
+	a { color: white; }
+}
+
+/* Featured content */
+/*------------------------------*/
+
+.featured-content {
+	padding: 40px 0;
+	background: white;
+	margin-top: -50px;
+	h3 {
+		background: $secondaryColor;
+		color: white;
+		padding: 5px 10px ;
+		font-size: 1.625em;
+		font-weight: 200;
+		margin-bottom: 1em;
+		text-align: center; }
+}
+
+/* About Racker */
+/*------------------------------*/
+.about-racker {
+	img { 
+		float: left; 
+		margin-right: 10px; }
+	p { 
+		float: right;
+		width: 65%; }
+}
+
+/* Warburg Institute */
+/*------------------------------*/
+.albums {
+	.album-thumbnails {
+		text-align: center;
+		margin-bottom: 1em; }
+}
+
+
+/* Lecture series */
+/*------------------------------*/
+.lecture {
+	content: "";
+	display: table;
+	clear: both;
+	padding: 10px 0;
+	background: url("../img/interview-bg.png") no-repeat bottom;
+	border-bottom: 1px solid $paleTeal;
+	img {
+		float: left;
+		margin-right: 10px; }
+}
+.lecture-first { padding-top: 0; }
+.lecture-title { margin-bottom: 0.25em; }
+.lecture-info {
+	font-size: 0.75em;
+	color: $mediumGray; }
+
+
