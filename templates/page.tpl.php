@@ -140,9 +140,6 @@
     <?php if ($sidebar_first || $sidebar_second): ?>
       <div class="row">
         <div class="span8">
-          <?php if ($title): ?>
-            <h2><?php print $title; ?></h2>
-          <?php endif; ?>
           <?php print render($page['highlighted']); ?>
           <!--<?php print $breadcrumb; ?>-->
           <?php print $messages; ?>
