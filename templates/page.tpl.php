@@ -140,6 +140,9 @@
     <?php if ($sidebar_first || $sidebar_second): ?>
       <div class="row">
         <div class="span8">
+          <?php if ($title): ?>
+            <h2><?php print $title; ?></h2>
+          <?php endif; ?>
           <?php print render($page['highlighted']); ?>
           <!--<?php print $breadcrumb; ?>-->
           <?php print $messages; ?>
@@ -151,6 +154,9 @@
           <!--<?php if(drupal_is_front_page()) {
             unset($page['content']['system_main']['default_message']);
           }?>-->
+          <?php if ($title): ?>
+            <h2><?php print $title; ?></h2>
+          <?php endif; ?>
           <?php print render($page['content']); ?>
         </div>
         <div class="span4 sidebar">
@@ -173,6 +179,9 @@
       <!--<?php if(drupal_is_front_page()) {
         unset($page['content']['system_main']['default_message']);
       }?>-->
+      <?php if ($title): ?>
+        <h2><?php print $title; ?></h2>
+      <?php endif; ?>
       <?php print render($page['content']); ?>
 
     <?php endif; ?>
