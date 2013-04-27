@@ -75,7 +75,7 @@
     <div class="row">
       <div class="span6">
         <div class="cu-logo">
-          <img src="img/cul-logo-gray.gif">
+          <img src="/sites/all/themes/bootstrap_racker/images/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
@@ -122,7 +122,7 @@
 
 <header>
   <div class="container">
-    <img src="img/header-about.jpg" alt="">
+    <img src="/sites/all/themes/bootstrap_racker/images/header-about.jpg" alt="">
     <p class="caption">Caption goes here</p>
   </div>
 </header>
