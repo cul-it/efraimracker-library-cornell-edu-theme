@@ -1843,7 +1843,7 @@ ul.icons {
 
 .cu-logo {
   display: block;
-  background: url("../img/cul-logo-gray.gif") no-repeat 0 0;
+  background: url("../images/cul-logo-gray.gif") no-repeat 0 0;
   width: 263px;
   height: 75px; }
   .cu-logo a {
@@ -2097,7 +2097,7 @@ footer {
   display: table;
   clear: both;
   padding: 10px 0;
-  background: url("../img/interview-bg.png") no-repeat bottom;
+  background: url("../images/interview-bg.png") no-repeat bottom;
   border-bottom: 1px solid #e4eef0; }
   .lecture img {
     float: left;
