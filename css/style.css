@@ -1926,9 +1926,9 @@ img {
     width: 1170px; }
   .navbar .brand {
     float: none;
-    font-size: 3.5em;
+    font-size: 3em;
     color: white;
-    font-weight: 300; }
+    font-weight: 600; }
   .navbar .subtitle {
     color: #c4e7ed;
     font-size: 1.375em;
@@ -2051,7 +2051,8 @@ footer {
     .callout-box h3 .years {
       display: block;
       font-size: 50%;
-      font-weight: 200; }
+      font-weight: 200;
+      line-height: 1.5em; }
     .callout-box h3 .name {
       display: block;
       font-weight: 400;
