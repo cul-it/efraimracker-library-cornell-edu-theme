@@ -12,6 +12,7 @@ regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
+regions[home_callout]   = 'Call-out box'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css

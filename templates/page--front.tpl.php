@@ -141,10 +141,7 @@
       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
     <div class="callout-box">
-      <h3><span class="name">Efraim Racker's </span>100th birthday
-        <span class="years">1913 ~ 2013</span></h3>
-      <p>Brief text about the centennial of Efraim Racker's birth. Lorem ipsum dolor sit amet, consecteteur adipiscing elit.</br>
-      <a href="#">Read more &raquo;</a></p>
+      <?php print render($page['home_callout']); ?>
     </div>
   </div>
 </section>
