@@ -1946,7 +1946,7 @@ img.pull-left {
     font-size: 1.375em;
     font-style: italic;
     font-weight: 300;
-    margin: 10px 0 0 175px; }
+    margin-top: 10px; }
   .navbar .nav {
     float: right;
     margin-top: 15px; }
@@ -2146,8 +2146,6 @@ footer {
   .navbar .brand {
     font-size: 3em;
     padding-bottom: 5px; }
-  .navbar .subtitle {
-    margin-left: 110px; }
 
   .about-racker p {
     width: 60%; }
@@ -2168,8 +2166,7 @@ footer {
     font-size: 2.25em;
     padding-bottom: 0; }
   .navbar .subtitle {
-    font-size: 1.25em;
-    margin-left: 60px; }
+    font-size: 1.25em; }
   .navbar .btn-navbar {
     display: none; }
   .navbar .nav li a {
