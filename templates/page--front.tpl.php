@@ -140,9 +140,9 @@
       <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
-    <!-- <div class="callout-box">
+    <div class="callout-box">
       <?php print render($page['home_callout']); ?>
-    </div> -->
+    </div>
   </div>
 </section>
 
