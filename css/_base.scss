@@ -43,6 +43,10 @@ img {
 	padding: 5px;
 	background: $paleTeal;
 }
+img.no-img-border { padding: 0; }
+
+img.pull-left {
+	margin: 0 20px 20px 0; }
 
 /* Miscellaneous */
 /*------------------------------*/
