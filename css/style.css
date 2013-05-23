@@ -2030,6 +2030,12 @@ footer {
   footer p {
     font-size: .875em; }
 
+/* Albums page */
+/*------------------------------*/
+/* Table */
+.page-node-3 .views-field-title {
+  width: 75%; }
+
 /* Slideshow */
 /*------------------------------*/
 .hero {
