@@ -131,10 +131,10 @@
       <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="active item"><img src="/sites/all/themes/bootstrap_racker/images/slideshow/1.jpg"></div>
-        <!-- <div class="item"><img src="img/slideshow/2.jpg"></div>
+        <div class="item"><img src="img/slideshow/2.jpg"></div>
         <div class="item"><img src="img/slideshow/3.jpg"></div>
         <div class="item"><img src="img/slideshow/4.jpg"></div>
-        <div class="item"><img src="img/slideshow/5.jpg"></div> -->
+        <div class="item"><img src="img/slideshow/5.jpg"></div>
       </div>
       <!-- Carousel nav -->
       <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -164,23 +164,26 @@
 
     <div class="row">
       <div class="span4 about-racker">
-        <h3>About Efraim Racker</h3>
+        <?php print render($page['home_about']); ?>
+        <!-- <h3>About Efraim Racker</h3>
         <img src="/sites/all/themes/bootstrap_racker/images/racker-portrait.jpg">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget diam id nisl scelerisque luctus interdum quis nibh. Pellentesque suscipit tellus quis nibh faucibus eu aliquam nisl placerat.</p>
-         <p class="text-right"><small><a href="#">Read more <i class="icon-double-angle-right"></i></a></small></p>
+         <p class="text-right"><small><a href="#">Read more <i class="icon-double-angle-right"></i></a></small></p> -->
       </div>
       <div class="span4 albums">
+        <?php print render($page['home_albums']); ?>
         <h3>Featured art albums</h3>
-        <div class="album-thumbnails">
+        <!-- <div class="album-thumbnails">
           <a href="#" title="Album 1 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album1.jpg"></a>
           <a href="#" title="Album 2 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album2.jpg"></a>
           <a href="#" title="Album 3 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album3.jpg"></a>
           <a href="#" title="Album 4 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album4.jpg"></a>
         </div>
-        <p class="text-right"><small><a href="#">See all 78 albums <i class="icon-double-angle-right"></i></a></small></p>
+        <p class="text-right"><small><a href="#">See all 78 albums <i class="icon-double-angle-right"></i></a></small></p> -->
       </div>
       <div class="span4 lecture-series">
-        <h3>Memorial lecture series</h3>
+        <?php print render($page['home_lectures']); ?>
+        <!-- <h3>Memorial lecture series</h3>
         <div class="lecture lecture-first">
           <img src="/sites/all/themes/bootstrap_racker/images/cantley.jpg">
           <div class="lecture-title"><a href="#">The Future of Cancer Prevention and Treatment: Moving from Discovery to Implementation</a></div>
@@ -190,7 +193,7 @@
           <img src="/sites/all/themes/bootstrap_racker/images/ciechanover.jpg">
           <div class="lecture-title"><a href="#">Drug Development in the 21st Century or Are We Going to Cure All Diseases</a></div>
           <div class="lecture-info">2011, Aaron Ciechanover</div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

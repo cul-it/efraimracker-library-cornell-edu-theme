@@ -9,10 +9,12 @@ regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
-regions[sidebar_second] = 'Secondary'
+regions[sidebar]  		= 'Sidebar'
 regions[footer]         = 'Footer'
-regions[home_callout]   = 'Call-out box'
+regions[home_callout]   = 'Home page call-out'
+regions[home_about]   	= 'Home page about box'
+regions[home_albums]   	= 'Home page albums box'
+regions[home_lectures]  = 'Home page lectures box'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css
