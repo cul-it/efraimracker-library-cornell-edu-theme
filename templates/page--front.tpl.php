@@ -105,7 +105,7 @@
         <?php if ($site_name): ?>
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
-        <div class="subtitle">Scientist and Artist, <span class="birth-death-years">June 28, 1913 - September 9, 1991</span></div>
+        <div class="subtitle">Scientist and Artist <span class="divider">|</span> <span class="birth-death-years">June 28, 1913 - September 9, 1991</span></div>
       </div>
       <div class="span7 main-navigation">
         <div class="nav-collapse collapse">
