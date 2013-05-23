@@ -1951,7 +1951,7 @@ img.pull-left {
       color: #8eb7be; }
   .navbar .nav {
     float: right;
-    margin-top: 15px; }
+    margin: 10px 0 0 0; }
     .navbar .nav li a {
       text-shadow: 0 0 0;
       color: #2c4f54;
