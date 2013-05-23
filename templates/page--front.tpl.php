@@ -140,9 +140,9 @@
       <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
-    <div class="callout-box">
+    <!-- <div class="callout-box">
       <?php print render($page['home_callout']); ?>
-    </div>
+    </div> -->
   </div>
 </section>
 
@@ -165,35 +165,12 @@
     <div class="row">
       <div class="span4 about-racker">
         <?php print render($page['home_about']); ?>
-        <!-- <h3>About Efraim Racker</h3>
-        <img src="/sites/all/themes/bootstrap_racker/images/racker-portrait.jpg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget diam id nisl scelerisque luctus interdum quis nibh. Pellentesque suscipit tellus quis nibh faucibus eu aliquam nisl placerat.</p>
-         <p class="text-right"><small><a href="#">Read more <i class="icon-double-angle-right"></i></a></small></p> -->
       </div>
       <div class="span4 albums">
         <?php print render($page['home_albums']); ?>
-        <!-- <h3>Featured art albums</h3>
-        <div class="album-thumbnails">
-          <a href="#" title="Album 1 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album1.jpg"></a>
-          <a href="#" title="Album 2 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album2.jpg"></a>
-          <a href="#" title="Album 3 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album3.jpg"></a>
-          <a href="#" title="Album 4 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album4.jpg"></a>
-        </div>
-        <p class="text-right"><small><a href="#">See all 78 albums <i class="icon-double-angle-right"></i></a></small></p> -->
       </div>
       <div class="span4 lecture-series">
         <?php print render($page['home_lectures']); ?>
-        <!-- <h3>Memorial lecture series</h3>
-        <div class="lecture lecture-first">
-          <img src="/sites/all/themes/bootstrap_racker/images/cantley.jpg">
-          <div class="lecture-title"><a href="#">The Future of Cancer Prevention and Treatment: Moving from Discovery to Implementation</a></div>
-          <div class="lecture-info">2012, Lewis Cantley</div>
-        </div>
-        <div class="lecture">
-          <img src="/sites/all/themes/bootstrap_racker/images/ciechanover.jpg">
-          <div class="lecture-title"><a href="#">Drug Development in the 21st Century or Are We Going to Cure All Diseases</a></div>
-          <div class="lecture-info">2011, Aaron Ciechanover</div>
-        </div> -->
       </div>
     </div>
   </div>
