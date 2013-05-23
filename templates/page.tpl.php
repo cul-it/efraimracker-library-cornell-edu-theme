@@ -106,7 +106,7 @@
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <?php if ($site_slogan): ?>
-          <div class="subtitle"><?php print $site_name; ?></div>
+          <div class="subtitle"><?php print $site_slogan; ?></div>
         <?php endif; ?>
       </div>
       <div class="span8 main-navigation">
