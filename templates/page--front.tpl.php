@@ -172,8 +172,8 @@
       </div>
       <div class="span4 albums">
         <?php print render($page['home_albums']); ?>
-        <h3>Featured art albums</h3>
-        <!-- <div class="album-thumbnails">
+        <!-- <h3>Featured art albums</h3>
+        <div class="album-thumbnails">
           <a href="#" title="Album 1 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album1.jpg"></a>
           <a href="#" title="Album 2 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album2.jpg"></a>
           <a href="#" title="Album 3 name goes here"><img src="/sites/all/themes/bootstrap_racker/images/album3.jpg"></a>
