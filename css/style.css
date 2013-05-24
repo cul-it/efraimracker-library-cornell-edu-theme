@@ -1930,7 +1930,8 @@ img.pull-left {
 
 .thumbnail-list {
   padding: 0;
-  border: 2px solid #e4eef0; }
+  border: 2px solid #e4eef0;
+  width: 75px; }
 
 /* Miscellaneous */
 /*------------------------------*/
