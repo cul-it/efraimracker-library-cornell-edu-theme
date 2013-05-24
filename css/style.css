@@ -2045,6 +2045,9 @@ footer {
 
 /* Lectures list */
 /*------------------------------*/
+.technical-title {
+  margin-top: .25em; }
+
 /* Slideshow */
 /*------------------------------*/
 .hero {
