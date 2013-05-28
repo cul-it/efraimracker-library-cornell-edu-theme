@@ -2013,26 +2013,26 @@ footer {
   color: #7ca0a6; }
   footer .container {
     padding: 30px 0; }
-  footer ul.footer-nav {
+  footer ul.nav {
     list-style: none;
     margin: 0 0 1em; }
-    footer ul.footer-nav li {
+    footer ul.nav li {
       display: inline-block;
       font-size: .875em;
       border-left: 1px solid #7ca0a6;
       padding: 0 5px 0 10px; }
-    footer ul.footer-nav li:first-child {
+    footer ul.nav li:first-child {
       border-left: none;
       padding-left: 0; }
-    footer ul.footer-nav a {
+    footer ul.nav a {
       color: #e4eef0; }
-    footer ul.footer-nav a:hover {
+    footer ul.nav a:hover {
       color: white; }
-    footer ul.footer-nav li.active {
+    footer ul.nav li.active {
       color: #7ca0a6; }
-      footer ul.footer-nav li.active a {
+      footer ul.nav li.active a {
         color: #7ca0a6; }
-      footer ul.footer-nav li.active .divider {
+      footer ul.nav li.active .divider {
         color: #7ca0a6; }
   footer p {
     font-size: .875em; }
