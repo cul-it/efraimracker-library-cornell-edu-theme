@@ -53,9 +53,9 @@ footer {
 		a:hover { 
 			color: white;
 			 background: inherit; }
-		li.active { 
+		li { 
 			color: $primaryColor;
-			a { color: $primaryColor; }
+			a.active { color: $primaryColor; }
 			.divider { color: $primaryColor; }
 		}
 	}
