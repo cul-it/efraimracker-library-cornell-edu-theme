@@ -2054,10 +2054,10 @@ footer {
 .hero {
   background: #7ca0a6; }
 
-.carousel {
+.region-home-slideshow {
   border: 2px solid white;
   z-index: 10; }
-  .carousel img {
+  .region-home-slideshow img {
     padding: 0; }
 
 /* Callout box */
