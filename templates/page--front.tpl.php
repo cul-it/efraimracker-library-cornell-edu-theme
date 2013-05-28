@@ -120,7 +120,8 @@
 
 <section class="hero">
   <div class="container">
-    <?php print render($page['home_slideshow']); ?>
+    <img src="/sites/all/themes/bootstrap_racker/images/slideshow/1.jpg" alt="Photo collage of Efraim Racker">
+    <!--<?php print render($page['home_slideshow']); ?>-->
   </div>
 </section>
 
