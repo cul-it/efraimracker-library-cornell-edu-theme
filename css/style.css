@@ -1928,6 +1928,9 @@ img.no-img-border {
 img.pull-left {
   margin: 0 20px 20px 0; }
 
+img.pull-right {
+  margin: 0 0 20px 20px; }
+
 .thumbnail-list {
   padding: 0;
   border: 2px solid #e4eef0;
