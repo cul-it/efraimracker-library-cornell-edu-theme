@@ -2137,7 +2137,8 @@ footer {
   border-bottom: 1px solid #e4eef0; }
   .lecture img {
     float: left;
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 60px; }
 
 .lecture-first {
   padding-top: 0; }
