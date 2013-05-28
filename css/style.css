@@ -2132,16 +2132,14 @@ footer {
   content: "";
   display: table;
   clear: both;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
+  margin-bottom: 10px;
   background: url("../images/interview-bg.png") no-repeat bottom;
   border-bottom: 1px solid #e4eef0; }
   .lecture img {
     float: left;
     margin-right: 10px;
     width: 60px; }
-
-.lecture:first-child {
-  padding-top: 0; }
 
 .lecture-title {
   margin-bottom: 0.25em; }
