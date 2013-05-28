@@ -50,8 +50,10 @@ footer {
 			border-left: none;
 			padding-left: 0; }
 		a { color: $paleTeal; }
-		a:hover { color: white; }
-		li.active { 
+		a:hover { 
+			color: white;
+			 background: inherit; }
+		li.active-trail { 
 			color: $primaryColor;
 			a { color: $primaryColor; }
 			.divider { color: $primaryColor; }

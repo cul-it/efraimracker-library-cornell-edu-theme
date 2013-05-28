@@ -2027,12 +2027,13 @@ footer {
     footer ul.nav a {
       color: #e4eef0; }
     footer ul.nav a:hover {
-      color: white; }
-    footer ul.nav li.active {
+      color: white;
+      background: inherit; }
+    footer ul.nav li.active-trail {
       color: #7ca0a6; }
-      footer ul.nav li.active a {
+      footer ul.nav li.active-trail a {
         color: #7ca0a6; }
-      footer ul.nav li.active .divider {
+      footer ul.nav li.active-trail .divider {
         color: #7ca0a6; }
   footer p {
     font-size: .875em; }
