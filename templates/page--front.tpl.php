@@ -141,11 +141,13 @@
     <!--<?php print render($page['content']); ?>-->
 
     <div class="row">
-      <div class="callout-box">
-        <?php print render($page['home_callout']); ?>
-      </div>
-      <div class="span4 about-racker">
-        <?php print render($page['home_about']); ?>
+      <div class="span4">
+        <div class="callout-box">
+          <?php print render($page['home_callout']); ?>
+        </div>
+        <div class="about-racker">
+          <?php print render($page['home_about']); ?>
+        </div>
       </div>
       <div class="span4 albums">
         <?php print render($page['home_albums']); ?>
