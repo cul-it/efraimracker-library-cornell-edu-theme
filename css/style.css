@@ -2140,7 +2140,7 @@ footer {
     margin-right: 10px;
     width: 60px; }
 
-.lecture-first {
+.lecture:first-child {
   padding-top: 0; }
 
 .lecture-title {
