@@ -2053,6 +2053,8 @@ footer {
 /*------------------------------*/
 .hero {
   background: #7ca0a6; }
+  .hero img {
+    padding: 0; }
 
 .region-home-slideshow {
   border: 2px solid white;

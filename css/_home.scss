@@ -2,7 +2,9 @@
 /*------------------------------*/
 
 .hero {
-	background: $primaryColor; }
+	background: $primaryColor;
+	img { padding: 0; }
+}
 .region-home-slideshow { 
 	border: 2px solid white;
 	z-index: 10;
