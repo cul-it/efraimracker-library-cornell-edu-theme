@@ -1938,6 +1938,9 @@ img.pull-right {
 
 /* Miscellaneous */
 /*------------------------------*/
+.show-more {
+  display: none; }
+
 .navbar {
   padding: 30px 0;
   background: #7ca0a6;
