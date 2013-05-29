@@ -2152,11 +2152,8 @@ footer {
 
 /* Callout box */
 /*------------------------------*/
-.callout {
-  background: #740516; }
-
 .featured-content .callout h3 {
-  background: inherit; }
+  background: #740516; }
 
 /* About Racker */
 /*------------------------------*/

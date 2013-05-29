@@ -71,10 +71,10 @@
 /* Callout box */
 /*------------------------------*/
 
-.callout { background: $darkRed; }
+.callout { }
 .featured-content {
 	.callout {
-		h3 { background: inherit; }
+		h3 { background: $darkRed; }
 	}
 }
 
