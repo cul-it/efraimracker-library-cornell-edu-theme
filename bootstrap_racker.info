@@ -20,3 +20,5 @@ regions[home_lectures]  = 'Home page lectures box'
 ; Stylesheets
 stylesheets[all][] = css/style.css
 
+; Scripts
+scripts[] = js/show-hide.js
