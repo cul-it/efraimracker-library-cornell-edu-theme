@@ -74,7 +74,7 @@
 .callout { background: $darkRed; }
 .featured-content {
 	.callout {
-		h3 {}
+		h3 { background: inherit; }
 	}
 }
 

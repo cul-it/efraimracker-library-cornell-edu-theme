@@ -2155,6 +2155,9 @@ footer {
 .callout {
   background: #740516; }
 
+.featured-content .callout h3 {
+  background: inherit; }
+
 /* About Racker */
 /*------------------------------*/
 .about-racker img {
