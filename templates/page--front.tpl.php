@@ -128,7 +128,6 @@
   <div class="container">
 
     <?php print render($page['highlighted']); ?>
-    <!--<?php print $breadcrumb; ?>-->
     <?php print $messages; ?>
     <?php print render($tabs); ?>
     <?php print render($page['help']); ?>
@@ -138,7 +137,6 @@
     <?php if(drupal_is_front_page()) {
       unset($page['content']['system_main']['default_message']);
     }?>
-    <!--<?php print render($page['content']); ?>-->
 
     <div class="row">
       <div class="span4">

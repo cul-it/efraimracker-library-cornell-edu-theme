@@ -138,7 +138,7 @@
       <div class="row">
         <div class="span8">
           <?php print render($page['highlighted']); ?>
-          <!--<?php print $breadcrumb; ?>-->
+          <?php print $breadcrumb; ?>
           <?php print $messages; ?>
           <?php print render($tabs); ?>
           <?php print render($page['help']); ?>
