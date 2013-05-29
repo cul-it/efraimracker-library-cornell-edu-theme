@@ -2056,6 +2056,13 @@ footer {
 
 /* Lectures list */
 /*------------------------------*/
+#block-views-lecture-list-block .icon-film {
+  margin-left: 5px;
+  color: #740516;
+  font-size: 0.875em; }
+
+/* Lectures page */
+/*------------------------------*/
 .technical-title {
   margin-top: .25em; }
 

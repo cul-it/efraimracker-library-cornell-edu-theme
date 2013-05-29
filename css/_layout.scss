@@ -76,12 +76,24 @@ footer {
 /* Lectures list */
 /*------------------------------*/
 
+#block-views-lecture-list-block {
+	.icon-film {
+		margin-left: 5px;
+		color: $darkRed;
+		font-size: 0.875em;
+	}
+}
+
+/* Lectures page */
+/*------------------------------*/
+
 .technical-title { 
 	margin-top: .25em; }
 #block-views-lecture-list-block-2 {
 	.lecture-info {
 		font-size: 0.875em;
 		margin-bottom: 1em; }
+
 }
 .speaker-info {
 	margin: 60px 0;
