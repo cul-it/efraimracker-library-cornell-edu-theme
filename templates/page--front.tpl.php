@@ -140,7 +140,7 @@
 
     <div class="row">
       <div class="span4">
-        <div class="callout-box">
+        <div class="callout">
           <?php print render($page['home_callout']); ?>
         </div>
         <div class="about-racker">
