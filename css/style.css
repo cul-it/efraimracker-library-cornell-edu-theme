@@ -2105,7 +2105,7 @@ footer {
   .region-home-slideshow img {
     padding: 0; }
 
-/* Callout box */
+/* Callout box  -- TODO: old -- for overlay on hero --delete if not needed*/
 /*------------------------------*/
 .callout-box h3 {
   background: #740516;
@@ -2149,6 +2149,11 @@ footer {
     font-weight: 200;
     margin-bottom: 1em;
     text-align: center; }
+
+/* Callout box */
+/*------------------------------*/
+.callout {
+  background: #740516; }
 
 /* About Racker */
 /*------------------------------*/

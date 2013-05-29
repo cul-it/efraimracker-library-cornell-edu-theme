@@ -12,7 +12,7 @@
 		padding: 0; }
 }
 
-/* Callout box */
+/* Callout box  -- TODO: old -- for overlay on hero --delete if not needed*/
 /*------------------------------*/
 .callout-box {
 	// position: relative;
@@ -66,6 +66,16 @@
 		font-weight: 200;
 		margin-bottom: 1em;
 		text-align: center; }
+}
+
+/* Callout box */
+/*------------------------------*/
+
+.callout { background: $darkRed; }
+.featured-content {
+	.callout {
+		h3 {}
+	}
 }
 
 /* About Racker */
