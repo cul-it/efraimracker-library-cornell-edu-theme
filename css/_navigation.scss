@@ -50,13 +50,16 @@
 /*------------------------------*/
 .nav-header {
 	font-size: 1.1em;
-	padding: 0;
-	margin-top: 50px;
-	font-weight: 600; }
-.nav-header:hover { color: #999; }
+	padding: 0 0 0 40px;
+	margin-top: 110px;
+	font-weight: 600;
+	color: $secondaryColor; }
+.nav-header:hover { color: #$secondaryColor; }
 .sidebar {
 	.menu {
-		li { font-size: 1.1em; }
+		li { 
+			font-size: 1.1em;
+			padding-left: 40px; }
 		a:hover { background: inherit; }
 		a.active,
 		a.active:hover { color: $darkGray; }
