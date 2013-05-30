@@ -1987,7 +1987,8 @@ img.pull-right {
 .nav-header {
   font-size: 1.1em;
   padding: 0;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-weight: 600; }
 
 .nav-header:hover {
   color: #999; }
