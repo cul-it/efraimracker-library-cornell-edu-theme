@@ -120,7 +120,7 @@
 
 <header>
   <div class="container">
-    <img src="/sites/all/themes/bootstrap_racker/images/header-about.jpg" alt="">
+    <img src="/sites/all/themes/bootstrap_racker/images/header-<?php print $section_title; ?>.jpg" alt="">
     <p class="caption">Caption goes here</p>
   </div>
 </header>
