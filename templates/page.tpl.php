@@ -120,7 +120,11 @@
 
 <header>
   <div class="container">
-    <img src="/sites/all/themes/bootstrap_racker/images/header-<?php print $section_title; ?>.jpg" alt="">
+    <?php  if (!empty($section_title)): ?>
+      <img src="/sites/all/themes/bootstrap_racker/images/header-<?php print $section_title; ?>.jpg" alt="">
+    <?php else: ?>
+      <img src="/sites/all/themes/bootstrap_racker/images/header-artworks.jpg" alt=""> 
+    <?php endif; ?>
   </div>
 </header>
 
