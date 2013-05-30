@@ -49,6 +49,12 @@
 /* Subnav */
 /*------------------------------*/
 .nav-header {
-	font-size: 1em;
+	font-size: 1.1em;
 	padding: 0;
-	margin-top: 40px; }
+	margin-top: 50px; }
+.sidebar {
+	.menu {
+		li { font-size: 1.1em; }
+		a:hover { background: inherit; }
+	}
+}
