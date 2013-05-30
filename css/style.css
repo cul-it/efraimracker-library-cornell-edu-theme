@@ -1989,10 +1989,16 @@ img.pull-right {
   padding: 0;
   margin-top: 50px; }
 
+.nav-header:hover {
+  color: #999; }
+
 .sidebar .menu li {
   font-size: 1.1em; }
 .sidebar .menu a:hover {
   background: inherit; }
+.sidebar .menu a.active,
+.sidebar .menu a.active:hover {
+  color: #4d4e53; }
 
 /* Institution branding */
 /*------------------------------*/
