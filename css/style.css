@@ -1982,6 +1982,10 @@ img.pull-right {
       -moz-box-shadow: none;
       box-shadow: none; }
 
+.nav-header {
+  font-size: 1em;
+  padding: 0; }
+
 /* Institution branding */
 /*------------------------------*/
 .institution-brand {

@@ -5,7 +5,6 @@ $cornell-primary: #4d4e53;
 $cornell-primary-hover: #990f26;
 $cornell-font: verdana, sans-serif;
 
-
 // Colors
 // -------------------------
 
@@ -19,29 +18,16 @@ $secondaryColor: #d89a45; // goldenrod
 $darkTeal: #13363c;
 $lightTeal: #a5cfd6;
 $paleTeal: #e4eef0;
-// $headerColor: #3a114a; 
-// $highlightColor: #e6b91c;
-// $highlightColorHover: #c29700;
+
 $darkRed: #740516;
 
 $textColorDark: #333;
-// $textColorLight: white;
 
-// $lightGray: #bebebe;
 $mediumGray: #858888;
 
 $linkPrimary: #38818d;
-
 
 // Fonts
 // -------------------------
 $baseFontFamily:        'Open Sans';        @import
 url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
-
-// -------------------
-// Boostrap overrides
-// -------------------
-
-// Wells
-// -------------------------
-// $wellBackground: $primaryColor;
