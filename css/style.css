@@ -1998,7 +1998,8 @@ img.pull-right {
   font-size: 1.1em;
   padding-left: 40px; }
 .sidebar .menu a:hover {
-  background: inherit; }
+  background: inherit;
+  text-decoration: underline; }
 .sidebar .menu a.active,
 .sidebar .menu a.active:hover {
   color: #4d4e53; }

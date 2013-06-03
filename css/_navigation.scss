@@ -62,7 +62,9 @@
 		li { 
 			font-size: 1.1em;
 			padding-left: 40px; }
-		a:hover { background: inherit; }
+		a:hover { 
+			background: inherit;
+			text-decoration: underline; }
 		a.active,
 		a.active:hover { color: $darkGray; }
 	}
