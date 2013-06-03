@@ -1949,7 +1949,8 @@ img.pull-right {
     float: none;
     font-size: 3em;
     color: white;
-    font-weight: 600; }
+    font-weight: 600;
+    text-decoration: none; }
   .navbar .subtitle {
     color: #c4e7ed;
     font-size: 1.25em;
