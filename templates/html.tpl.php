@@ -79,7 +79,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="description" content="Signale: Modern German letters, cultures and thought">
   <meta name="author" content="Cornell University">
 
