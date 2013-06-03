@@ -8,9 +8,9 @@ body {
 
 /* Links */
 /*------------------------------*/
-a { color: $linkPrimary;}
+a { color: $linkPrimary; text-decoration: underline;}
 a:visited {}
-a:hover { text-decoration: none; }
+a:hover { }
 a:active { }
 
 

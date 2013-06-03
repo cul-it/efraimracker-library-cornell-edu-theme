@@ -1888,10 +1888,8 @@ body {
 /* Links */
 /*------------------------------*/
 a {
-  color: #38818d; }
-
-a:hover {
-  text-decoration: none; }
+  color: #38818d;
+  text-decoration: underline; }
 
 /* Typography */
 /*------------------------------*/
