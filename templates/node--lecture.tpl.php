@@ -115,8 +115,10 @@
   ?>
 
   <div class="well">
-    <?php $content['field_speaker']['#label_display'] = 'hidden';) ?>
+    <p>Custom field goes here: <?php print render($content['title']) ?></p>
   </div>
+  <?php print render($content['field_speaker'] ['#label_display'] = 'hidden';) ?>
+  
 
   <?php print render($content['links']); ?>
 
