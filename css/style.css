@@ -2056,17 +2056,17 @@ footer {
     footer ul.nav li:first-child {
       border-left: none;
       padding-left: 0; }
-    footer ul.nav a {
-      color: #7ca0a6; }
-    footer ul.nav a:hover {
-      color: white;
-      background: inherit; }
     footer ul.nav li {
       color: #7ca0a6; }
       footer ul.nav li a.active {
         color: white; }
       footer ul.nav li .divider {
         color: #7ca0a6; }
+  footer a {
+    color: #7ca0a6; }
+  footer a:hover {
+    color: white;
+    background: inherit; }
   footer p {
     font-size: .875em; }
 

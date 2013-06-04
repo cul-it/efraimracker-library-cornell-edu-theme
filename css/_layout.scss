@@ -52,16 +52,16 @@ footer {
 		li:first-child { 
 			border-left: none;
 			padding-left: 0; }
-		a { color: $primaryColor; }
-		a:hover { 
-			color: white;
-			 background: inherit; }
 		li { 
 			color: $primaryColor;
 			a.active { color: white; }
 			.divider { color: $primaryColor; }
 		}
 	}
+	a { color: $primaryColor; }
+	a:hover { 
+		color: white;
+		 background: inherit; }
 	p { font-size: .875em; }
 }
 
