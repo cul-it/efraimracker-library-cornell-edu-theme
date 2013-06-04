@@ -57,11 +57,12 @@ footer {
 			a.active { color: white; }
 			.divider { color: $primaryColor; }
 		}
+		a:hover { background: inherit; }
 	}
 	a { color: $primaryColor; }
 	a:hover { 
 		color: white;
-		 background: $darkTeal; }
+		 background: inherit; }
 	p { font-size: .875em; }
 }
 

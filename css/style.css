@@ -2062,11 +2062,13 @@ footer {
         color: white; }
       footer ul.nav li .divider {
         color: #7ca0a6; }
+    footer ul.nav a:hover {
+      background: inherit; }
   footer a {
     color: #7ca0a6; }
   footer a:hover {
     color: white;
-    background: #13363c; }
+    background: inherit; }
   footer p {
     font-size: .875em; }
 
