@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="span6 search-box">
-        <?php print $search_box; ?>
+        <?php print render($page['search_box']); ?>
       </div>
     </div> <!-- /row -->
   </div> <!-- /container -->

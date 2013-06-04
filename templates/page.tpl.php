@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="span6 search-box">
-        <?php print $search_box; ?>
+        <?php print render($page['search_box']); ?>
         <!-- <form class="form-search">
           <input type="text" class="input-medium search-query" placeholder="Search">
         </form> -->
