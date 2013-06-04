@@ -117,6 +117,7 @@
   <div class="well">
     <p>Custom field goes here: <?php print render($content['title']) ?></p>
   </div>
+  <?php print render($content['field_speaker']) ?>
 
   <?php print render($content['links']); ?>
 
