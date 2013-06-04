@@ -6,6 +6,7 @@ base theme = bootstrap
 ; Regions
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
+regions[search_box]     = 'Search box'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'

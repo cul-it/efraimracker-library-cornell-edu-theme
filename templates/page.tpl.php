@@ -84,10 +84,10 @@
         </div>
       </div>
       <div class="span6 search-box">
-        <form class="form-search">
+        <?php print $search_box; ?>
+        <!-- <form class="form-search">
           <input type="text" class="input-medium search-query" placeholder="Search">
-          <!-- <button type="submit" class="btn">Search</button> -->
-        </form>
+        </form> -->
       </div>
     </div> <!-- /row -->
   </div> <!-- /container -->
