@@ -151,15 +151,6 @@
             <h2><?php print $title; ?></h2>
           <?php endif; ?>
           <?php print render($page['content']); ?>
-          <div id="google-cse-results">
-            <noscript>
-              <?php print $noscript; ?>
-            </noscript>
-          </div>
-
-          <?php if ($suffix): ?>
-            <div class="google-cse-results-suffix"><?php print $suffix; ?></div>
-          <?php endif; ?>
         </div>
         <div class="span4 sidebar">
           <?php print $sidebar; ?>
