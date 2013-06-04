@@ -2065,7 +2065,8 @@ footer {
   footer a {
     color: #7ca0a6; }
   footer a:hover {
-    color: white; }
+    color: white;
+    background: transparent; }
   footer p {
     font-size: .875em; }
 
