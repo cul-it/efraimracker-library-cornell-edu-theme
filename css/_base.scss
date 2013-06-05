@@ -35,6 +35,10 @@ p { line-height: 1.6em; }
 .main-content {
 	li { line-height: 1.6em; }
 }
+// fix bug on search results page where header appears next to search box when no results
+.page-search-search-by-page {
+	form.pull-left { float: none; }
+}
 
 /* Images */
 /*------------------------------*/

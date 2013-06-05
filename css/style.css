@@ -1923,6 +1923,9 @@ p {
 .main-content li {
   line-height: 1.6em; }
 
+.page-search-search-by-page form.pull-left {
+  float: none; }
+
 /* Images */
 /*------------------------------*/
 img {
