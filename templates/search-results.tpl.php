@@ -24,7 +24,6 @@
  */
 ?>
 <?php if ($search_results): ?>
-  <h3><?php print t('Search results');?></h3>
   <ol class="search-results <?php print $module; ?>-results">
     <?php print $search_results; ?>
   </ol>
