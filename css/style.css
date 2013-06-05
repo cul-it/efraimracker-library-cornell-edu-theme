@@ -1881,7 +1881,8 @@ ul.icons {
 .search-box form.pull-left {
   float: none; }
 .search-box .btn {
-  padding: 3px 12px; }
+  padding: 3px 12px;
+  background-color: inherit; }
 
 body {
   font-size: 100%;
