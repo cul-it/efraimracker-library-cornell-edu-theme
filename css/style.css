@@ -1882,7 +1882,8 @@ ul.icons {
   float: none; }
 .search-box .btn {
   padding: 3px 12px;
-  background-image: none; }
+  background-image: none;
+  background-color: inherit; }
 
 body {
   font-size: 100%;
