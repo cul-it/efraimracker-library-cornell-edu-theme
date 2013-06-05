@@ -66,7 +66,9 @@
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
-    <a href="<?php print $url; ?>" class="title"<?php print $title_attributes; ?>><?php print $title; ?></a>
+  <h4 class="title"<?php print $title_attributes; ?>>
+    <a href="<?php print $url; ?>"><?php print $title; ?></a>
+  </h4>
   <?php print render($title_suffix); ?>
   <div class="search-snippet-info">
     <?php if ($snippet): ?>
