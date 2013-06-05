@@ -1878,6 +1878,9 @@ ul.icons {
     color: #a5cfd6;
     font-family: "Open Sans"; }
 
+.search-box form.pull-left {
+  text-align: right; }
+
 body {
   font-size: 100%;
   font-family: "Open Sans";

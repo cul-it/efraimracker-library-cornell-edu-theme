@@ -10,3 +10,8 @@
   	color: $lightTeal;
   	font-family: $baseFontFamily; }
 }
+
+// Override default search form rules
+.search-box {
+  form.pull-left { text-align: right; }
+}
