@@ -1883,7 +1883,8 @@ ul.icons {
 .search-box .btn {
   padding: 3px 12px;
   background-image: none;
-  background-color: #858888; }
+  background-color: #858888;
+  text-shadow: none; }
 
 body {
   font-size: 100%;
