@@ -14,4 +14,7 @@
 // Override default search form rules
 .search-box {
   form.pull-left { float: none; }
+  .btn {
+    padding: 3px 12px;
+  }
 }

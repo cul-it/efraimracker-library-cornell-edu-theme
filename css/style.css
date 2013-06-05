@@ -1880,6 +1880,8 @@ ul.icons {
 
 .search-box form.pull-left {
   float: none; }
+.search-box .btn {
+  padding: 3px 12px; }
 
 body {
   font-size: 100%;
