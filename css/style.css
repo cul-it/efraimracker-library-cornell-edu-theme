@@ -1879,7 +1879,7 @@ ul.icons {
     font-family: "Open Sans"; }
 
 .search-box form.pull-left {
-  text-align: right; }
+  float: none; }
 
 body {
   font-size: 100%;
