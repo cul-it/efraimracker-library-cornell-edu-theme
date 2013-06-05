@@ -27,6 +27,7 @@
   <ol class="search-results <?php print $module; ?>-results">
     <?php print $search_results; ?>
   </ol>
+  <?php print $pager; ?>
 <?php else : ?>
   <h3><?php print t('Your search yielded no results');?></h3>
   <?php print search_help('search#noresults', drupal_help_arg()); ?>
