@@ -1870,7 +1870,8 @@ ul.icons {
   text-align: right;
   margin-top: 20px; }
   .search-box input.search-query {
-    background: #424244;
+    background: #424244 !important;
+    background-image: none !important;
     border: none;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
