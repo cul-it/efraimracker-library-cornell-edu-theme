@@ -2,8 +2,7 @@
   text-align: right;
   margin-top: 20px;
   input.search-query { 
-  	background: $darkerGray !important;
-    background-image: none !important;
+  	background: $darkerGray;
   	border: none;
   	-webkit-border-radius: 4px;
   	-moz-border-radius: 4px;
@@ -24,10 +23,19 @@
   }
 }
 
+// Override default Google search box rules
 .form-search {
   .input-append {
     .search-query {
       background: $darkerGray !important;
       background-image: none !important; }
+  }
+}
+.main-content {
+  .form-search {
+    .input-append {
+      .search-query {
+        background: white !important; }
+    }
   }
 }
