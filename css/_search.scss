@@ -2,7 +2,8 @@
   text-align: right;
   margin-top: 20px;
   input.search-query { 
-  	background: $darkerGray;
+  	background: $darkerGray !important;
+    background-image: none !important;
   	border: none;
   	-webkit-border-radius: 4px;
   	-moz-border-radius: 4px;
