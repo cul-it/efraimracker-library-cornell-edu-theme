@@ -28,7 +28,8 @@
   .input-append {
     .search-query {
       background: $darkerGray !important;
-      background-image: none !important; }
+      background-image: none !important;
+      font-family: $baseFontFamily; }
   }
 }
 .main-content {
