@@ -1888,6 +1888,10 @@ ul.icons {
   text-shadow: none;
   border-color: #858888; }
 
+.form-search .input-append .search-query {
+  background: #424244 !important;
+  background-image: none !important; }
+
 body {
   font-size: 100%;
   font-family: "Open Sans";
