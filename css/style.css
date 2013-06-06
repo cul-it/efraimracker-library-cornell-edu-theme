@@ -1893,6 +1893,8 @@ ul.icons {
 
 .main-content .form-search .input-append .search-query {
   background: white !important; }
+.main-content form.pull-left {
+  float: none; }
 
 body {
   font-size: 100%;
