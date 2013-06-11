@@ -120,3 +120,15 @@ footer {
 .media-type { 
 	font-size: 80%;
 	color: $mediumGray; }
+
+/* About slideshow */
+/*------------------------------*/
+
+.slideshow-image {
+	text-align: center;
+	width: 410px;
+	height: 410px;
+}
+.about-slideshow {
+	.caption { font-size: 0.875em; }
+}

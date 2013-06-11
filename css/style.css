@@ -2145,6 +2145,16 @@ footer {
   font-size: 80%;
   color: #858888; }
 
+/* About slideshow */
+/*------------------------------*/
+.slideshow-image {
+  text-align: center;
+  width: 410px;
+  height: 410px; }
+
+.about-slideshow .caption {
+  font-size: 0.875em; }
+
 /* Slideshow */
 /*------------------------------*/
 .hero {
