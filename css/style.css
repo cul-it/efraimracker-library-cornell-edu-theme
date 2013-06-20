@@ -2231,6 +2231,9 @@ footer {
 .about-racker p {
   float: right;
   width: 65%; }
+.about-racker p.portrait {
+  float: left;
+  margin-right: 10px; }
 .about-racker .emphasize {
   font-size: 110%;
   font-weight: 600; }

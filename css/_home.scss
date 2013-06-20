@@ -88,6 +88,9 @@
 	p { 
 		float: right;
 		width: 65%; }
+	p.portrait {
+		float: left;
+		margin-right: 10px; }
 	.emphasize {
 		font-size: 110%;
 		font-weight: 600; }
