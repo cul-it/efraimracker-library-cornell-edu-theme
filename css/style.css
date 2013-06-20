@@ -2234,6 +2234,8 @@ footer {
 .about-racker .emphasize {
   font-size: 110%;
   font-weight: 600; }
+.about-racker .text-right {
+  clear: both; }
 
 /* Warburg Institute */
 /*------------------------------*/
