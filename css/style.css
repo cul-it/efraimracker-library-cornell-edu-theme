@@ -2269,13 +2269,16 @@ footer {
   text-transform: uppercase;
   font-size: .875em; }
 .lecture-series .date {
-  font-size: .875em;
-  margin-bottom: .25em; }
+  margin-bottom: .75em; }
 .lecture-series .speaker {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.5em;
   color: #740516;
-  margin-botom: .25em; }
+  margin-botom: .5em; }
+.lecture-series .affiliation p {
+  font-size: .75em;
+  color: #858888;
+  margin-bottom: 1.5em; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
