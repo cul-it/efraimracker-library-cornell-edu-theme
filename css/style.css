@@ -1966,7 +1966,9 @@ img.pull-right {
 .well {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  border-radius: 0; }
+  border-radius: 0;
+  background: #e4eef0;
+  border-color: #a5cfd6; }
 
 .navbar {
   padding: 30px 0;
