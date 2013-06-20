@@ -2277,8 +2277,9 @@ footer {
   margin-bottom: .5em; }
 .lecture-series .affiliation p {
   font-size: .75em;
-  color: #858888;
   margin-bottom: 1.5em; }
+.lecture-series .well {
+  padding: 5px 10px; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
