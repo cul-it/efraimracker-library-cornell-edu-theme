@@ -2268,6 +2268,14 @@ footer {
 .lecture-series h4 {
   text-transform: uppercase;
   font-size: .875em; }
+.lecture-series .date {
+  font-size: .875em;
+  margin-bottom: .25em; }
+.lecture-series .speaker {
+  font-weight: 600;
+  font-size: 1.25em;
+  color: #740516;
+  margin-botom: .25em; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
