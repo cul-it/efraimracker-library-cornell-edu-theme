@@ -2225,10 +2225,7 @@ footer {
 
 /* About Racker */
 /*------------------------------*/
-.about-racker img {
-  float: left;
-  margin-right: 10px; }
-.about-racker p {
+.about-racker p.text {
   float: right;
   width: 65%; }
 .about-racker p.portrait {
