@@ -2164,6 +2164,9 @@ footer {
   .about-slideshow img {
     padding: 0;
     border: 0; }
+  .about-slideshow .views-slideshow-controls-top {
+    margin-bottom: .5em;
+    font-size: .75em; }
 
 /* Slideshow */
 /*------------------------------*/
