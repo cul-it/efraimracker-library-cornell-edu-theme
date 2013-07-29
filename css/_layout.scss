@@ -124,14 +124,10 @@ footer {
 /* About slideshow */
 /*------------------------------*/
 
-.slideshow-image {
-	text-align: center;
-	width: 410px;
-	height: 410px;
-}
 .about-slideshow {
 	background: $paleTeal;
 	color: white;
+	text-align: center;
 	.caption { font-size: 0.875em; }
 	img { 
 		padding: 0;

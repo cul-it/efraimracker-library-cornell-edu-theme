@@ -2155,14 +2155,10 @@ footer {
 
 /* About slideshow */
 /*------------------------------*/
-.slideshow-image {
-  text-align: center;
-  width: 410px;
-  height: 410px; }
-
 .about-slideshow {
   background: #e4eef0;
-  color: white; }
+  color: white;
+  text-align: center; }
   .about-slideshow .caption {
     font-size: 0.875em; }
   .about-slideshow img {
