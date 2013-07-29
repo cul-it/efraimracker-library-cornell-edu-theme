@@ -130,7 +130,10 @@ footer {
 	height: 410px;
 }
 .about-slideshow {
-	background: $darkTeal;
+	background: $paleTeal;
 	color: white;
 	.caption { font-size: 0.875em; }
+	img { 
+		padding: 0;
+		border: 0; }
 }

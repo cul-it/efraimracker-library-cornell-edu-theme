@@ -2161,10 +2161,13 @@ footer {
   height: 410px; }
 
 .about-slideshow {
-  background: #13363c;
+  background: #e4eef0;
   color: white; }
   .about-slideshow .caption {
     font-size: 0.875em; }
+  .about-slideshow img {
+    padding: 0;
+    border: 0; }
 
 /* Slideshow */
 /*------------------------------*/
