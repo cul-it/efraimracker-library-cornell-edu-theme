@@ -2159,7 +2159,8 @@ footer {
   background: #e4eef0;
   text-align: center; }
   .about-slideshow .caption {
-    font-size: 0.75em; }
+    margin-top: .5em;
+    font-size: 0.875em; }
   .about-slideshow img {
     padding: 0;
     border: 0; }
