@@ -2384,8 +2384,10 @@ form.webform-client-form {
     .callout-box h3 {
       font-size: 1.5em; }
 
-  .google-cse-results iframe {
-    width: 700px !important; } }
+  .google-cse-results {
+    width: 700px !important; }
+    .google-cse-results iframe {
+      width: 700px !important; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
