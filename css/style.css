@@ -2372,7 +2372,7 @@ form.webform-client-form {
 
   .about-racker img {
     width: 70px; }
-  .about-racker p {
+  .about-racker p.text {
     width: 60%; }
 
   .album-thumbnails img {
