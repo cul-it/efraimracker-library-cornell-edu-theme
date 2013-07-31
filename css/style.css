@@ -2348,9 +2348,11 @@ form.webform-client-form {
     font-size: 1em; }
   .navbar .btn-navbar {
     display: none; }
-  .navbar .nav li a {
-    font-size: 1em;
-    padding: 5px 8px; }
+  .navbar .nav {
+    margin-top: 5px; }
+    .navbar .nav li a {
+      font-size: 1em;
+      padding: 5px; }
 
   .nav-collapse,
   .nav-collapse.collapse {

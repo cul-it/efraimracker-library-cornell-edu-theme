@@ -15,10 +15,11 @@
 		// override bootstrap nav collapse at this size
 		.btn-navbar { display: none; }
 		.nav {
+			margin-top: 5px;
 			li {
 				a { 
 					font-size: 1em;
-					padding: 5px 8px; }
+					padding: 5px }
 			}
 		}
 	}
