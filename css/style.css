@@ -2178,6 +2178,10 @@ footer {
 form.webform-client-form {
   padding: 30px;
   background: #e4eef0; }
+  form.webform-client-form .description {
+    font-size: .75em; }
+  form.webform-client-form .form-item {
+    margin: 0 0 1em; }
 
 /* Slideshow */
 /*------------------------------*/

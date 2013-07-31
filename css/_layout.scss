@@ -145,4 +145,6 @@ footer {
 form.webform-client-form {
 	padding: 30px;
 	background: $paleTeal;
+	.description { font-size: .75em; }
+	.form-item { margin: 0 0 1em; }
 }
