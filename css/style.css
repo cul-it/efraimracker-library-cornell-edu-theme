@@ -2184,7 +2184,8 @@ form.webform-client-form {
     margin: 0 0 1em; }
   form.webform-client-form .form-radios {
     margin-left: 15px; }
-  form.webform-client-form input {
+  form.webform-client-form input,
+  form.webform-client-form textarea {
     font-family: "Open Sans"; }
 
 /* Slideshow */

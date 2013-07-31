@@ -148,5 +148,6 @@ form.webform-client-form {
 	.description { font-size: .75em; }
 	.webform-component { margin: 0 0 1em; }
 	.form-radios { margin-left: 15px; }
-	input { font-family: $baseFontFamily; }
+	input,
+	textarea { font-family: $baseFontFamily; }
 }
