@@ -2182,6 +2182,8 @@ form.webform-client-form {
     font-size: .75em; }
   form.webform-client-form .webform-component {
     margin: 0 0 1em; }
+  form.webform-client-form .form-radios {
+    margin-left: 15px; }
 
 /* Slideshow */
 /*------------------------------*/
