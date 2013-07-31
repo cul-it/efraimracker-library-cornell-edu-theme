@@ -2337,6 +2337,11 @@ form.webform-client-form {
   body {
     font-size: 90%; }
 
+  .google-cse-results {
+    width: 700px !important; }
+    .google-cse-results iframe {
+      width: 700px !important; }
+
   .navbar .container {
     width: 724px; }
   .navbar .brand {
@@ -2382,12 +2387,7 @@ form.webform-client-form {
     margin-top: -260px;
     width: 250px; }
     .callout-box h3 {
-      font-size: 1.5em; }
-
-  .google-cse-results {
-    width: 700px !important; }
-    .google-cse-results iframe {
-      width: 700px !important; } }
+      font-size: 1.5em; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
