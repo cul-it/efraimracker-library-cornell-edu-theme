@@ -2337,9 +2337,9 @@ form.webform-client-form {
   body {
     font-size: 90%; }
 
-  .google-cse-results {
+  #google-cse-results {
     width: 700px !important; }
-    .google-cse-results iframe {
+    #google-cse-results iframe {
       width: 700px !important; }
 
   .navbar .container {
