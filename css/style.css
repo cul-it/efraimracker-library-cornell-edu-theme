@@ -2341,9 +2341,11 @@ form.webform-client-form {
     width: 724px; }
   .navbar .brand {
     font-size: 2.25em;
+    margin-left: 0;
+    padding-left: 0;
     padding-bottom: 0; }
   .navbar .subtitle {
-    font-size: 1.25em; }
+    font-size: 1em; }
   .navbar .btn-navbar {
     display: none; }
   .navbar .nav li a {
