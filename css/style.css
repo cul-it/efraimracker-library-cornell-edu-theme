@@ -2180,7 +2180,7 @@ form.webform-client-form {
   background: #e4eef0; }
   form.webform-client-form .description {
     font-size: .75em; }
-  form.webform-client-form .form-item {
+  form.webform-client-form .webform-component {
     margin: 0 0 1em; }
 
 /* Slideshow */
