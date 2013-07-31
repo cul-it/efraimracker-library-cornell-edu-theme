@@ -1969,6 +1969,9 @@ img.pull-right {
   border-radius: 0;
   background: #e4eef0; }
 
+.btn {
+  font-family: "Open Sans"; }
+
 .navbar {
   padding: 30px 0;
   background: #7ca0a6;
@@ -2169,6 +2172,12 @@ footer {
   .about-slideshow .views-slideshow-controls-top {
     margin-bottom: .5em;
     font-size: .75em; }
+
+/* Webforms */
+/*------------------------------*/
+form.webform-client-form {
+  padding: 30px;
+  background: #e4eef0; }
 
 /* Slideshow */
 /*------------------------------*/
