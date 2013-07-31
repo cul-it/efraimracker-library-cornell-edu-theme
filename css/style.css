@@ -2320,6 +2320,8 @@ form.webform-client-form {
   .navbar .brand {
     font-size: 3em;
     padding-bottom: 5px; }
+  .navbar .subtitle {
+    font-size: 1.1em; }
 
   .about-racker p {
     width: 60%; }
