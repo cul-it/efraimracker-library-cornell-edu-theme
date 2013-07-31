@@ -12,14 +12,14 @@
 			padding-bottom: 5px; }
 		.subtitle { font-size: 1.1em; }
 	}
-	.about-racker {
-		p { width: 60%; }
-	}
 	.album-thumbnails {
 		img { max-width: 130px; }
 	}
 	.callout-box {
 		margin-top: -310px;
 		width: 300px;
+	}
+	.about-racker {
+		p.text { width: 60%; }
 	}
 }
