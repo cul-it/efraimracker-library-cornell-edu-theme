@@ -61,7 +61,9 @@ footer {
 			background: inherit;
 			text-decoration: underline; }
 	}
-	a { color: $primaryColor; }
+	a { 
+		color: $primaryColor;
+		text-decoration: none; }
 	a:hover { 
 		color: white; }
 	p { font-size: .875em; }

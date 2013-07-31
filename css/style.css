@@ -2099,7 +2099,8 @@ footer {
       background: inherit;
       text-decoration: underline; }
   footer a {
-    color: #7ca0a6; }
+    color: #7ca0a6;
+    text-decoration: none; }
   footer a:hover {
     color: white; }
   footer p {
