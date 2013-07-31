@@ -101,13 +101,13 @@
       <span class="icon-bar"></span>
     </a>
     <div class="row">
-      <div class="span5">
+      <div class="span6">
         <?php if ($site_name): ?>
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <div class="subtitle">Scientist and Artist <span class="divider">|</span>  June 28, 1913 - September 9, 1991</div>
       </div>
-      <div class="span7 main-navigation">
+      <div class="span6 main-navigation">
         <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
