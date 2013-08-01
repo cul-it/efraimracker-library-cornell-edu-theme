@@ -113,13 +113,13 @@
 
 
     <div class="row">
-      <div class="span6">
+      <div class="span5">
         <?php if ($site_name): ?>
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <div class="subtitle">Scientist and Artist</a> <span class="divider">|</span> <span class="dates">June 28, 1913 - September 9, 1991</span></div>
       </div>
-      <div class="span6 main-navigation hidden-phone">
+      <div class="span7 main-navigation hidden-phone">
         <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
