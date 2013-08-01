@@ -11,5 +11,13 @@
 		.divider { display: none; }
 		.dates { display: block; }
 	}
+	.nav-header {
+		padding: 0; 
+	}
+	.sidebar {
+		.menu {
+			li { padding-left: 0; }
+		}
+	}
 }
 
