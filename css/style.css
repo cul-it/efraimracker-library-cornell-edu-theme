@@ -2399,8 +2399,8 @@ form.webform-client-form {
   .navbar {
     padding: 0 0 15px 0; }
     .navbar .brand {
-      margin: 0 0 5px;
-      padding: 0; }
+      margin: 0;
+      padding: 0 0 5px; }
     .navbar .container {
       width: auto;
       padding: 0 10px; }
@@ -2471,7 +2471,6 @@ form.webform-client-form {
 @media (max-width: 480px) {
   .navbar .brand {
     font-size: 2.5em;
-    margin: 0;
     padding: 0; }
   .navbar .divider {
     display: none; }
