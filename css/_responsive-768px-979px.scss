@@ -13,11 +13,13 @@
 	.navbar {
 		.container { width: 724px; }
 		.brand { 
-			font-size: 2.25em;
+			font-size: 2.75em;
 			margin-left: 0;
 			padding-left: 0;
 			padding-bottom: 0; }
-		.subtitle { font-size: 1em; }
+		.divider { display: none; }
+		.dates { display: block; }
+		// .subtitle { font-size: 1em; }
 		// override bootstrap nav collapse at this size
 		.btn-navbar { display: none; }
 		.nav {

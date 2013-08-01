@@ -2347,12 +2347,14 @@ form.webform-client-form {
   .navbar .container {
     width: 724px; }
   .navbar .brand {
-    font-size: 2.25em;
+    font-size: 2.75em;
     margin-left: 0;
     padding-left: 0;
     padding-bottom: 0; }
-  .navbar .subtitle {
-    font-size: 1em; }
+  .navbar .divider {
+    display: none; }
+  .navbar .dates {
+    display: block; }
   .navbar .btn-navbar {
     display: none; }
   .navbar .nav {
