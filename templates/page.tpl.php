@@ -92,7 +92,7 @@
 
 <nav class="navbar">
   <div class="container">
-    <btn class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
