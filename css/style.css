@@ -2438,6 +2438,7 @@ form.webform-client-form {
       -moz-border-radius: 0;
       border-radius: 0; }
     .nav-collapse .nav {
+      text-align: left;
       margin: 0; }
     .nav-collapse .nav > li > a {
       margin-bottom: 0; }
