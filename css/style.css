@@ -2422,7 +2422,7 @@ form.webform-client-form {
     margin-top: 0; }
 
   .mobile-nav {
-    float: right; }
+    text-align: right; }
     .mobile-nav .btn {
       display: inline-block !important; }
 
