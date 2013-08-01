@@ -92,10 +92,10 @@
 
 <nav class="navbar">
   <div class="container">
-    <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
+    <btn class="btn visible-phone" data-toggle="collapse" data-target=".nav-collapse">
       <i class="icon-reorder"></i>
     </btn>
-    <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
+    <btn class="btn btn-search visible-phone" data-toggle="collapse" data-target=".search-collapse">
       <i class="icon-search"></i>
     </btn>
     <div class="row">
@@ -105,11 +105,11 @@
         <?php endif; ?>
         <div class="subtitle">Scientist and Artist <span class="divider">|</span>  June 28, 1913 - September 9, 1991</div>
       </div>
-      <div class="span6 main-navigation">
+      <div class="span6 main-navigation hidden-phone">
         <div class="search-collapse collapse">
           <?php print render($page['search_box']); ?>
         </div>
-        <div class="nav-collapse collapse">
+        <div class="nav-collapse collapse hidden-phone">
           <div class="nav">
             <?php print render($page['navigation']); ?>
           </div>
