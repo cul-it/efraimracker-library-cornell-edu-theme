@@ -2415,6 +2415,12 @@ form.webform-client-form {
         color: white;
         font-weight: normal; }
 
+  header {
+    display: none; }
+
+  .main-content {
+    margin-top: 0; }
+
   .mobile-nav .btn {
     display: inline-block !important; }
 
