@@ -2427,7 +2427,8 @@ form.webform-client-form {
     margin-top: 0; }
 
   .mobile-nav {
-    text-align: right; }
+    text-align: right;
+    margin-bottom: 10px; }
     .mobile-nav .btn {
       display: inline-block !important; }
 
