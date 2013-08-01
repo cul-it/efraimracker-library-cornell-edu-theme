@@ -2483,8 +2483,7 @@ form.webform-client-form {
     font-size: 2em;
     margin: 0;
     padding: 0; }
-
-  .mobile-nav .divider {
+  .navbar .divider {
     display: none; }
-  .mobile-nav .dates {
+  .navbar .dates {
     display: block; } }
