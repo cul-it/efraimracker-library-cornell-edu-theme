@@ -93,9 +93,7 @@
 <nav class="navbar">
   <div class="container">
     <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+      <i class="icon-reorder"></i>
     </btn>
     <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
       <i class="icon-search"></i>
