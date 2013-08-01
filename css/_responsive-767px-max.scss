@@ -31,6 +31,9 @@
 			}
 		}
 	}
+	.mobile-nav {
+		.btn { display: inline-block !important; }
+	}
 	.container { padding: 0 10px; }
 	.nav-collapse {
 		background: $darkTeal;
