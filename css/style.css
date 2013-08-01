@@ -2497,4 +2497,5 @@ form.webform-client-form {
 
   .pull-left,
   .pull-right {
-    float: none; } }
+    float: none;
+    margin: 0 0 15px 0; } }
