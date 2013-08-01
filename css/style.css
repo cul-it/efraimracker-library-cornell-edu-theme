@@ -2445,6 +2445,9 @@ form.webform-client-form {
     .nav-collapse .nav > li > a {
       margin-bottom: 0; }
 
+  .about-racker p.portrait {
+    width: 25%; }
+
   .search-box input.search-query {
     background: white;
     color: #4d4e53; }
@@ -2502,7 +2505,4 @@ form.webform-client-form {
   img.pull-right {
     float: none;
     margin: 0 0 15px 0;
-    text-align: center; }
-
-  .about-racker p.portrait {
-    width: 25%; } }
+    text-align: center; } }
