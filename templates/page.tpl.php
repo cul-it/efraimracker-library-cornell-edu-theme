@@ -85,9 +85,6 @@
       </div>
       <div class="span6 search-box hidden-phone">
         <?php print render($page['search_box']); ?>
-        <!-- <form class="form-search">
-          <input type="text" class="input-medium search-query" placeholder="Search">
-        </form> -->
       </div>
     </div> <!-- /row -->
   </div> <!-- /container -->
@@ -100,6 +97,9 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </a>
+    <a class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
+      <i class="icon-search"></i>
+    </a>
     <div class="row">
       <div class="span6">
         <?php if ($site_name): ?>
@@ -108,6 +108,9 @@
         <div class="subtitle">Scientist and Artist <span class="divider">|</span>  June 28, 1913 - September 9, 1991</div>
       </div>
       <div class="span6 main-navigation">
+        <div class="search-collapse collapse">
+          <?php print render($page['search_box']); ?>
+        </div>
         <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
