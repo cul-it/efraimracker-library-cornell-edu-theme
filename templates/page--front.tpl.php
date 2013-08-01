@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="span6 search-box">
+      <div class="span6 search-box hidden-phone">
         <?php print render($page['search_box']); ?>
       </div>
     </div> <!-- /row -->
