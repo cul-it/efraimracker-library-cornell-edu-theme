@@ -2421,8 +2421,10 @@ form.webform-client-form {
   .main-content {
     margin-top: 0; }
 
-  .mobile-nav .btn {
-    display: inline-block !important; }
+  .mobile-nav {
+    float: right; }
+    .mobile-nav .btn {
+      display: inline-block !important; }
 
   .container {
     padding: 0 10px; }
