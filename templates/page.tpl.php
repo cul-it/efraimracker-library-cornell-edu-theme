@@ -92,12 +92,22 @@
 
 <nav class="navbar">
   <div class="container">
-    <btn class="btn visible-phone" data-toggle="collapse" data-target=".nav-collapse">
+    <btn class="btn btn-visible-phone" data-toggle="collapse" data-target=".nav-collapse">
       <i class="icon-reorder"></i>
     </btn>
     <btn class="btn btn-search visible-phone" data-toggle="collapse" data-target=".search-collapse">
       <i class="icon-search"></i>
     </btn>
+    <div class="nav-collapse collapse visible-phone">
+      <div class="nav">
+        <?php print render($page['navigation']); ?>
+      </div>
+    </div>
+    <div class="search-collapse collapse visible-phone">
+      <?php print render($page['search_box']); ?>
+    </div>
+
+
     <div class="row">
       <div class="span6">
         <?php if ($site_name): ?>
@@ -109,7 +119,7 @@
         <div class="search-collapse collapse">
           <?php print render($page['search_box']); ?>
         </div>
-        <div class="nav-collapse collapse hidden-phone">
+        <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
           </div>
