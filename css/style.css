@@ -2500,4 +2500,5 @@ form.webform-client-form {
   img.pull-left,
   img.pull-right {
     float: none;
-    margin: 0 0 15px 0; } }
+    margin: 0 0 15px 0;
+    text-align: center; } }
