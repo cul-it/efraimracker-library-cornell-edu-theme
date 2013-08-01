@@ -3,8 +3,11 @@
 // --------------------------------------------------
 
 @media (max-width: 480px) {
-// 	.navbar {
-// 		.brand { margin-left: -15px; }
-// 	}
+	.navbar {
+		.brand { 
+			font-size: 2em;
+			margin: 0;
+			padding: 0; }
+	}
 }
 

@@ -2478,3 +2478,8 @@ form.webform-client-form {
         font-weight: inherit; }
       .callout-box h3 .years {
         font-size: 80%; } }
+@media (max-width: 480px) {
+  .navbar .brand {
+    font-size: 2em;
+    margin: 0;
+    padding: 0; } }
