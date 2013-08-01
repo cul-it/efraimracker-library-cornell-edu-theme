@@ -2398,6 +2398,9 @@ form.webform-client-form {
 
   .navbar {
     padding: 0 0 15px 0; }
+    .navbar .brand {
+      margin: 0;
+      padding: 0; }
     .navbar .container {
       width: auto;
       padding: 0 10px; }
