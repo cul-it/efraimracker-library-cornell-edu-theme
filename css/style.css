@@ -2480,7 +2480,7 @@ form.webform-client-form {
         font-size: 80%; } }
 @media (max-width: 480px) {
   .navbar .brand {
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0;
     padding: 0; }
   .navbar .divider {
