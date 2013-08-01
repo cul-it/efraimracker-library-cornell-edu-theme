@@ -2482,4 +2482,9 @@ form.webform-client-form {
   .navbar .brand {
     font-size: 2em;
     margin: 0;
-    padding: 0; } }
+    padding: 0; }
+
+  .mobile-nav .divider {
+    display: none; }
+  .mobile-nav .dates {
+    display: block; } }

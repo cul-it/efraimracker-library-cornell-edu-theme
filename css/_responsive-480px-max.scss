@@ -9,5 +9,9 @@
 			margin: 0;
 			padding: 0; }
 	}
+	.mobile-nav {
+		.divider { display: none; }
+		.dates { display: block; }
+	}
 }
 
