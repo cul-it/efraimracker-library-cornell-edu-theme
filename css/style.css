@@ -1950,6 +1950,7 @@ img.no-img-border {
 img.pull-left {
   margin: 0 20px 20px 0; }
 
+.pull-right,
 img.pull-right {
   margin: 0 0 20px 20px; }
 
