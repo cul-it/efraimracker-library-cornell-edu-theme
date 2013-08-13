@@ -160,6 +160,9 @@ form.webform-client-form {
 /*------------------------------*/
 
 .transcript {
+	border-left: 5px solid $pale-teal;
+	padding-left: 20px;
+	margin-top: 20px;
 	dd { 
 		margin-left: 0;
 		margin-bottom: 1em; }
