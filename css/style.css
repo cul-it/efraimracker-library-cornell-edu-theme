@@ -1965,7 +1965,7 @@ img.pull-right {
   display: none; }
 
 .no-margin {
-  margin-bottom: 0; }
+  margin: 0; }
 
 /* Bootstrap overrides */
 /*------------------------------*/
