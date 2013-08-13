@@ -2012,6 +2012,8 @@ img.pull-right {
       background: #a5cfd6; }
     .navbar .nav li:first-child a {
       border: none; }
+    .navbar .nav .active a,
+    .navbar .nav .active a:hover,
     .navbar .nav li.active-trail a,
     .navbar .nav li.active-trail a:hover {
       color: white;
