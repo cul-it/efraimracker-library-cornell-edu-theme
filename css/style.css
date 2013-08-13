@@ -2194,6 +2194,12 @@ form.webform-client-form {
   form.webform-client-form textarea {
     font-family: "Open Sans"; }
 
+/* Transcript */
+/*------------------------------*/
+.transcript dd {
+  margin-left: 0;
+  margin-bottom: 1em; }
+
 /* Slideshow */
 /*------------------------------*/
 .hero {
