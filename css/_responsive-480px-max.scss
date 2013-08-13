@@ -25,5 +25,7 @@
 		float: none;
 		margin: 0 0 15px 0;
 		text-align: center; }
+	// TODO: double check this when in production, but it appears there is a Google search box at the 480px breakpoint which makes the Drupal one on the results page redundant
+	form.google-cse { display: none; }
 }
 
