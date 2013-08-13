@@ -2342,9 +2342,9 @@ form.webform-client-form {
     font-size: 90%; }
 
   #google-cse-results {
-    width: 700px !important; }
+    width: 100% !important; }
     #google-cse-results iframe {
-      width: 700px !important; }
+      width: 100% !important; }
 
   .navbar .container {
     width: 724px; }
@@ -2473,7 +2473,12 @@ form.webform-client-form {
     display: none; }
 
   .form-search .input-append .search-query {
-    background: white !important; } }
+    background: white !important; }
+
+  #google-cse-results {
+    width: 100% !important; }
+    #google-cse-results iframe {
+      width: 100% !important; } }
 @media (max-width: 480px) {
   .navbar .brand {
     font-size: 2.5em;

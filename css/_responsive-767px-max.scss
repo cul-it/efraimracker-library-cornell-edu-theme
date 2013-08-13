@@ -77,5 +77,11 @@
 			.search-query { background: white !important; }
 		}
 	}
+	#google-cse-results {
+		width: 100% !important;
+		iframe {
+			width: 100% !important;
+		}
+	}
 }
 
