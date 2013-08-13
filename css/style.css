@@ -2456,7 +2456,7 @@ form.webform-client-form {
     width: 25%; }
 
   .search-box input.search-query {
-    background: white;
+    background: white !important;
     color: #4d4e53; }
 
   .about-racker p {
@@ -2471,7 +2471,10 @@ form.webform-client-form {
       width: 130px; }
 
   footer .container {
-    padding: 20px 10px; } }
+    padding: 20px 10px; }
+
+  .views-field-field-lecture-type {
+    display: none; } }
 @media (max-width: 480px) {
   .navbar .brand {
     font-size: 2.5em;
@@ -2493,7 +2496,4 @@ form.webform-client-form {
   img.pull-right {
     float: none;
     margin: 0 0 15px 0;
-    text-align: center; }
-
-  .views-field-field-lecture-type {
-    display: none; } }
+    text-align: center; } }
