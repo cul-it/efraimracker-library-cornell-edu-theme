@@ -121,7 +121,9 @@ footer {
 }
 .media-type { 
 	font-size: 80%;
-	color: $mediumGray; }
+	color: $secondaryColor;
+	text-transform: uppercase;
+	font-weight: 700; }
 
 /* About slideshow */
 /*------------------------------*/

@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
-/*
+/*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -1028,7 +1028,7 @@ ul.icons li [class*=" icon-"] {
 .icon-folder-open-alt:before {
   content: "\f115"; }
 
-/*
+/*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -2158,7 +2158,9 @@ footer {
 
 .media-type {
   font-size: 80%;
-  color: #858888; }
+  color: #d89a45;
+  text-transform: uppercase;
+  font-weight: 700; }
 
 /* About slideshow */
 /*------------------------------*/
