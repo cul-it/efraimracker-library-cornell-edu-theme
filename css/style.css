@@ -2010,10 +2010,15 @@ img.pull-right {
     .navbar .nav li a:hover {
       color: #13363c;
       background: #a5cfd6; }
+    .navbar .nav li .active,
+    .navbar .nav li .active:hover {
+      color: white;
+      background-color: inherit;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
     .navbar .nav li:first-child a {
       border: none; }
-    .navbar .nav .active a,
-    .navbar .nav .active a:hover,
     .navbar .nav li.active-trail a,
     .navbar .nav li.active-trail a:hover {
       color: white;

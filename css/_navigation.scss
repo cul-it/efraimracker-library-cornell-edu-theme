@@ -31,11 +31,17 @@
 			a:hover { 
 				color: $darkTeal;
 				background: $lightTeal; }
+			.active,
+			.active:hover {
+				color: white;
+				background-color: inherit;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none; }
 		}
 		li:first-child {
 			a { border: none; }
 		}
-		.active,
 		li.active-trail {
 			a, 
 			a:hover {
