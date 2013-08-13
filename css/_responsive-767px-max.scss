@@ -58,11 +58,6 @@
 	.about-racker {
 		p.portrait { width: 25%; }
 	}
-	.search-box {
-	  input.search-query { 
-	  	background: white !important;
-	  	color: $darkGray; }
-	}
 	.about-racker {
 		p { 
 			width: 95%;
@@ -77,5 +72,10 @@
 		.container { padding: 20px 10px;}
 	}
 	.views-field-field-lecture-type { display: none; }
+	.form-search {
+		.input-append {
+			.search-query { background: white !important; }
+		}
+	}
 }
 
