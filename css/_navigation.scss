@@ -80,6 +80,7 @@
 		a:hover { 
 			background: $darkTeal; }
 		a.active,
-		a.active:hover { color: $darkGray; }
+		a.active:hover { 
+			background: $darkTeal; }
 	}
 }
