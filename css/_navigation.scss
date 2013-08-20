@@ -69,6 +69,13 @@
 		li { 
 			font-size: 1.1em;
 			padding-left: 40px; }
+		a {
+			display: inline-block;
+			padding: 5px 15px;
+			text-decoration: none;
+			background: $linkPrimary;
+			color: white;
+		}
 		a:hover { 
 			background: inherit;
 			text-decoration: underline; }

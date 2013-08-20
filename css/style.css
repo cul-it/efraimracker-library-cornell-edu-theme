@@ -2043,6 +2043,12 @@ img.pull-right {
 .sidebar .menu li {
   font-size: 1.1em;
   padding-left: 40px; }
+.sidebar .menu a {
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  background: #38818d;
+  color: white; }
 .sidebar .menu a:hover {
   background: inherit;
   text-decoration: underline; }
