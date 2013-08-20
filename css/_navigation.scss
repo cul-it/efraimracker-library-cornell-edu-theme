@@ -75,10 +75,10 @@
 			text-decoration: none;
 			background: $linkPrimary;
 			color: white;
+			margin-bottom: 5px;
 		}
 		a:hover { 
-			background: inherit;
-			text-decoration: underline; }
+			background: $darkTeal; }
 		a.active,
 		a.active:hover { color: $darkGray; }
 	}

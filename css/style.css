@@ -2048,10 +2048,10 @@ img.pull-right {
   padding: 5px 15px;
   text-decoration: none;
   background: #38818d;
-  color: white; }
+  color: white;
+  margin-bottom: 5px; }
 .sidebar .menu a:hover {
-  background: inherit;
-  text-decoration: underline; }
+  background: #13363c; }
 .sidebar .menu a.active,
 .sidebar .menu a.active:hover {
   color: #4d4e53; }
