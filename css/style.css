@@ -2127,9 +2127,8 @@ footer {
 
 /* Albums page */
 /*------------------------------*/
-/* Table */
-.page-node-3 .views-field-title {
-  width: 75%; }
+.views-field.views-field-field-album-date {
+  width: 35%; }
 
 /* Lectures list */
 /*------------------------------*/
