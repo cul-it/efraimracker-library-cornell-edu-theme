@@ -2130,6 +2130,9 @@ footer {
 .views-field.views-field-field-album-date {
   width: 35%; }
 
+.view-albums table td {
+  border-top: 0; }
+
 /* Lectures list */
 /*------------------------------*/
 #block-views-lecture-list-block .icon-film {
