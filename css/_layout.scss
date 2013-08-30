@@ -133,7 +133,9 @@ footer {
 	color: $secondaryColor;
 	text-transform: uppercase;
 	font-weight: 700; }
-#kaltura_player_1377874792 { margin: 0 auto; }
+.video-player {
+	object { margin: 0 auto; }
+} 
 
 /* About slideshow */
 /*------------------------------*/
