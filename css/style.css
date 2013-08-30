@@ -2130,8 +2130,11 @@ footer {
 .views-field.views-field-field-album-date {
   width: 35%; }
 
-.view-albums table td {
-  border-top: 0; }
+.front .view-albums table {
+  width: 90%;
+  margin: 0 auto 20px auto; }
+  .front .view-albums table td {
+    border-top: 0; }
 
 /* Lectures list */
 /*------------------------------*/
