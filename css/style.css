@@ -2509,7 +2509,10 @@ form.webform-client-form {
   #google-cse-results {
     width: 100% !important; }
     #google-cse-results iframe {
-      width: 100% !important; } }
+      width: 100% !important; }
+
+  #kaltura_player_1377874792 {
+    width: 100% !important; } }
 @media (max-width: 480px) {
   .navbar .brand {
     font-size: 2.5em;
