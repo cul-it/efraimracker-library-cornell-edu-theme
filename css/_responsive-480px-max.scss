@@ -27,7 +27,8 @@
 		text-align: center; }
 	.video-player {
 		object,
-		video {
+		video,
+		source {
 			width: 250px !important;
 			height: 192px !important; }
 	}
