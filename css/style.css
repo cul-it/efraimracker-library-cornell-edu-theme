@@ -2514,8 +2514,7 @@ form.webform-client-form {
     #google-cse-results iframe {
       width: 100% !important; }
 
-  .video-player object,
-  .video-player #kaltura_player_1377884437 {
+  .video-player #kaltura_player_1377878909 {
     width: 480px !important;
     height: 341px !important; } }
 @media (max-width: 480px) {
@@ -2541,7 +2540,6 @@ form.webform-client-form {
     margin: 0 0 15px 0;
     text-align: center; }
 
-  .video-player object,
-  .video-player #kaltura_player_1377884437 {
+  .video-player #kaltura_player_1377878909 {
     width: 250px !important;
     height: 192px !important; } }
