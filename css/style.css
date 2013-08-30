@@ -2544,8 +2544,6 @@ form.webform-client-form {
     text-align: center; }
 
   .video-player object,
-  .video-player video,
-  .video-player source,
-  .video-player div {
+  .video-player #kaltura_player_1377884437 {
     width: 250px !important;
     height: 192px !important; } }
