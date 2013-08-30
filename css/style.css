@@ -2515,9 +2515,7 @@ form.webform-client-form {
       width: 100% !important; }
 
   .video-player object,
-  .video-player video,
-  .video-player source,
-  .video-player div {
+  .video-player #kaltura_player_1377884437 {
     width: 480px !important;
     height: 341px !important; } }
 @media (max-width: 480px) {
