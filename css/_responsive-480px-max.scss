@@ -28,7 +28,8 @@
 	.video-player {
 		object,
 		video,
-		source {
+		source,
+		div {
 			width: 250px !important;
 			height: 192px !important; }
 	}
