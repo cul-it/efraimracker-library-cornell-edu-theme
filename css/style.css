@@ -2515,7 +2515,8 @@ form.webform-client-form {
       width: 100% !important; }
 
   .video-player object,
-  .video-player video {
+  .video-player video,
+  .video-player source {
     width: 480px !important;
     height: 341px !important; } }
 @media (max-width: 480px) {
