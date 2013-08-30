@@ -84,7 +84,9 @@
 		}
 	}
 	.video-player {
-		object, iframe {
+		object, 
+		.kWidgetIframeContainer,
+		iframe {
 			width: 480px !important;
 			height: 341px !important; }
 	}
