@@ -2141,6 +2141,8 @@ footer {
   #block-views-albums-block-2 .views-row .album-thumbnail {
     float: left;
     margin: 0 5px 10px; }
+#block-views-albums-block-2 .view-footer {
+  clear: both; }
 
 /* Lectures list */
 /*------------------------------*/
