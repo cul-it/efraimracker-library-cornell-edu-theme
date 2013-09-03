@@ -2136,6 +2136,12 @@ footer {
   .front .view-albums table td {
     border-top: 0; }
 
+#block-views-albums-block-2 .views-row {
+  text-align: center; }
+  #block-views-albums-block-2 .views-row .album-thumbnail {
+    float: left;
+    margin: 0 5px 10px; }
+
 /* Lectures list */
 /*------------------------------*/
 #block-views-lecture-list-block .icon-film {
