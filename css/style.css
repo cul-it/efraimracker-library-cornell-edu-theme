@@ -2435,7 +2435,13 @@ form.webform-client-form {
     margin-top: -260px;
     width: 250px; }
     .callout-box h3 {
-      font-size: 1.5em; } }
+      font-size: 1.5em; }
+
+  #block-views-albums-block-2 .views-row {
+    margin-left: 5px; }
+    #block-views-albums-block-2 .views-row .album-thumbnail img {
+      width: 90px !important;
+      height: 90px !important; } }
 @media (max-width: 767px) {
   body {
     padding: 0;

@@ -58,4 +58,14 @@
 		width: 250px;
 		h3 { font-size: 1.5em; }
 	}
+	#block-views-albums-block-2 {
+		.views-row {
+			margin-left: 5px;
+			.album-thumbnail {
+				img {
+					width: 90px !important;
+					height: 90px !important; }
+			}
+		}
+	}
 }
