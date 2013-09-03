@@ -2137,7 +2137,8 @@ footer {
     border-top: 0; }
 
 #block-views-albums-block-2 .views-row {
-  text-align: center; }
+  text-align: center;
+  margin-left: 20px; }
   #block-views-albums-block-2 .views-row .album-thumbnail {
     float: left;
     margin: 0 5px 10px; }
