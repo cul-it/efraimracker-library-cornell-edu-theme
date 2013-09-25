@@ -2342,11 +2342,14 @@ form.webform-client-form {
   text-transform: uppercase;
   font-size: .875em; }
 .lecture-series .date {
+  font-size: .75em; }
+.lecture-series .title {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #740516;
   margin-bottom: .75em; }
 .lecture-series .speaker {
   font-weight: 600;
-  font-size: 1.5em;
-  color: #740516;
   margin-bottom: .5em; }
 .lecture-series .affiliation p {
   font-size: .75em; }
