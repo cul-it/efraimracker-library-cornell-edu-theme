@@ -2357,9 +2357,9 @@ form.webform-client-form {
 
 .upcoming-photo img {
   width: 60px;
-  float: right;
+  float: left;
   margin: 0 10px 10px 0;
-  background: #a5cfd6; }
+  background: #ccc; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
