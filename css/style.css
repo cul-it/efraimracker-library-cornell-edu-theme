@@ -2189,6 +2189,10 @@ footer {
 .video-player object {
   margin: 0 auto; }
 
+.missing-captions {
+  font-size: .75em;
+  color: #999; }
+
 /* About slideshow */
 /*------------------------------*/
 .about-slideshow {
