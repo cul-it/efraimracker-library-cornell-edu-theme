@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
-/*!
+/*
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -1028,7 +1028,7 @@ ul.icons li [class*=" icon-"] {
 .icon-folder-open-alt:before {
   content: "\f115"; }
 
-/*!
+/*
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -2354,6 +2354,12 @@ form.webform-client-form {
   font-size: .75em; }
 .lecture-series .well {
   padding: 5px 10px; }
+
+.upcoming-photo img {
+  width: 60px;
+  float: right;
+  margin: 0 10px 10px 0;
+  background: #a5cfd6; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {

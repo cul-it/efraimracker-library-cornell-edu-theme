@@ -139,4 +139,11 @@
 	.well { 
 		padding: 5px 10px; }
 }
-
+.upcoming-photo {
+	img {
+		width: 60px;
+		float: right;
+		margin: 0 10px 10px 0;
+		background: $lightTeal;
+	}
+}
