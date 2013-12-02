@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
-/*
+/*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -1028,7 +1028,7 @@ ul.icons li [class*=" icon-"] {
 .icon-folder-open-alt:before {
   content: "\f115"; }
 
-/*
+/*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
@@ -2329,7 +2329,8 @@ form.webform-client-form {
   padding: 0 0 10px 0;
   margin-bottom: 10px;
   background: url("../images/interview-bg.png") no-repeat bottom;
-  border-bottom: 1px solid #e4eef0; }
+  border-bottom: 1px solid #e4eef0;
+  width: 100%; }
   .lecture img {
     float: left;
     margin-right: 10px;
