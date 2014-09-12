@@ -4,9 +4,10 @@ body {
 	font-weight: 400;
 	color: $textColorDark;
 	background: $darkTeal;
+	padding-top: 0 !important; //override top padding injected by bootstrap CDN
 }
 body.toolbar-drawer {
-	padding-top: 0 !important; //override top padding injected by theme or module
+	padding-top: 65px !important; //override top padding injected by theme or module
 }
 
 /* Links */

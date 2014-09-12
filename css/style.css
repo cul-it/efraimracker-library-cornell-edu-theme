@@ -1895,10 +1895,11 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
   color: #333333;
-  background: #13363c; }
+  background: #13363c;
+  padding-top: 0 !important; }
 
 body.toolbar-drawer {
-  padding-top: 0 !important; }
+  padding-top: 65px !important; }
 
 /* Links */
 /*------------------------------*/
