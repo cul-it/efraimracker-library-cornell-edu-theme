@@ -1883,7 +1883,8 @@ ul.icons {
 .form-search .input-append .search-query {
   background: #424244 !important;
   background-image: none !important;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  width: 33%; }
 
 .main-content .form-search .input-append .search-query {
   background: white !important; }

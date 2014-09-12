@@ -29,7 +29,9 @@
     .search-query {
       background: $darkerGray !important;
       background-image: none !important;
-      font-family: $baseFontFamily; }
+      font-family: $baseFontFamily;
+      width: 33%;
+    }
   }
 }
 .main-content {
