@@ -30,7 +30,9 @@
       background: $darkerGray !important;
       background-image: none !important;
       font-family: $baseFontFamily;
-      width: 33%;
+    }
+    input {
+      width: 35%;
     }
   }
 }
