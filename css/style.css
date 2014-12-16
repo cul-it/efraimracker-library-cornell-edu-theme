@@ -1900,10 +1900,10 @@ ul.icons {
   float: none; }
 
 input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
-  background: #666; }
+  background: #666 !important; }
 
 .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
-  padding: 7px 12px; }
+  padding: 7px 12px !important; }
 
 body {
   font-size: 100%;
