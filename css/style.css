@@ -1899,6 +1899,12 @@ ul.icons {
 .main-content form.pull-left {
   float: none; }
 
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+  background: #666; }
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+  padding: 7px 12px; }
+
 body {
   font-size: 100%;
   font-family: "Open Sans";
