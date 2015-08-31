@@ -73,7 +73,7 @@
 <section class="cornell-identity">
   <div class="container">
     <div class="row">
-      <div class="col-sm8">
+      <div class="col-sm-8">
         <div class="cu-logo">
           <img src="/sites/all/themes/bootstrap_racker/images/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm4 search-box hidden-xs">
+      <div class="col-sm-4 search-box hidden-xs">
         <?php print render($page['search_box']); ?>
       </div>
     </div> <!-- /row -->
