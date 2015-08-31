@@ -12,45 +12,6 @@
 		padding: 0; }
 }
 
-/* Callout box  -- TODO: old -- for overlay on hero --delete if not needed*/
-/*------------------------------*/
-.callout-box {
-	// position: relative;
-	// z-index: 100;
-	// margin-top: -350px;
-	// float: right;
-	// width: 350px;
-	// margin-right: 70px;
-	h3 {
-		background: $darkRed;
-		opacity: .9;
-		padding: 10px;
-		margin: 0;
-		font-weight: bold;
-		font-size: 2.25em;
-		color: white;
-		line-height: 1em;
-		text-align: center;
-		.years { 
-			display: block;
-			font-size: 50%;
-			font-weight: 200;
-			line-height: 1.5em; }
-		.name { 
-			display: block;
-			font-weight: 400;
-			font-size: 70%; }
-	}
-	p {
-		background: black;
-		opacity: .9;
-		margin: 0;
-		padding: 20px;
-		color: #cca4ab;
-	}
-	a { color: white; }
-}
-
 /* Featured content */
 /*------------------------------*/
 

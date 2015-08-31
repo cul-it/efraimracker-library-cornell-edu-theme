@@ -7903,7 +7903,6 @@ h2 {
   background: #d89a45;
   color: white;
   padding: 10px 20px;
-  font-size: 1.625em;
   font-weight: 200;
   line-height: 1.25em;
   margin-bottom: 1em;
@@ -7912,7 +7911,6 @@ h2 {
 
 h3 {
   color: #13363c;
-  font-size: 1.5em;
   font-weight: 400; }
 
 p {
@@ -8062,7 +8060,6 @@ header {
     text-align: right;
     margin-top: -30px;
     margin-right: 15px;
-    font-size: 0.75em;
     font-style: italic; }
 
 /* Main content on sub pages */
@@ -8089,7 +8086,6 @@ footer {
     margin: 0 0 1em; }
     footer ul.nav li {
       display: inline-block;
-      font-size: .875em;
       border-left: 1px solid #7ca0a6;
       padding: 0 5px 0 10px; }
     footer ul.nav li:first-child {
@@ -8109,8 +8105,6 @@ footer {
     text-decoration: none; }
   footer a:hover {
     color: white; }
-  footer p {
-    font-size: .875em; }
 
 /* Albums page */
 /*------------------------------*/
@@ -8130,8 +8124,7 @@ footer {
 /*------------------------------*/
 #block-views-lecture-list-block .icon-film {
   margin-left: 5px;
-  color: #d89a45;
-  font-size: 0.875em; }
+  color: #d89a45; }
 
 /* Lectures page */
 /*------------------------------*/
@@ -8139,7 +8132,6 @@ footer {
   margin-top: .25em; }
 
 .view-lectures-new .lecture-info {
-  font-size: 0.875em;
   color: #333; }
 
 .lecture-speaker {
@@ -8234,36 +8226,6 @@ form.webform-client-form {
   z-index: 10; }
   .region-home-slideshow img {
     padding: 0; }
-
-/* Callout box  -- TODO: old -- for overlay on hero --delete if not needed*/
-/*------------------------------*/
-.callout-box h3 {
-  background: #740516;
-  opacity: .9;
-  padding: 10px;
-  margin: 0;
-  font-weight: bold;
-  font-size: 2.25em;
-  color: white;
-  line-height: 1em;
-  text-align: center; }
-  .callout-box h3 .years {
-    display: block;
-    font-size: 50%;
-    font-weight: 200;
-    line-height: 1.5em; }
-  .callout-box h3 .name {
-    display: block;
-    font-weight: 400;
-    font-size: 70%; }
-.callout-box p {
-  background: black;
-  opacity: .9;
-  margin: 0;
-  padding: 20px;
-  color: #cca4ab; }
-.callout-box a {
-  color: white; }
 
 /* Featured content */
 /*------------------------------*/
