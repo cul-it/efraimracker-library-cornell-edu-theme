@@ -94,19 +94,19 @@
   <div class="container">
 
     <!-- mobile search and nav buttons -->
-    <div class="mobile-nav">
-      <btn class="btn visible-xs" data-toggle="collapse" data-target=".nav-collapse">
+    <div class="mobile-nav visible-xs">
+      <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
         <i class="icon-reorder"></i>
       </btn>
-      <btn class="btn btn-search visible-xs" data-toggle="collapse" data-target=".search-collapse">
+      <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
         <i class="icon-search"></i>
       </btn>
-      <div class="nav-collapse collapse visible-xs">
+      <div class="nav-collapse collapse">
         <div class="nav">
           <?php print render($page['navigation']); ?>
         </div>
       </div>
-      <div class="search-collapse collapse visible-xs">
+      <div class="search-collapse collapse">
         <?php print render($page['search_box']); ?>
       </div>
     </div>
