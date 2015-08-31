@@ -1,5 +1,8 @@
-@import 'racker/font-awesome';
-@import 'racker/font-awesome-ie7';
+// Bootstrap foundation
+@import 'bootstrap';
+
+// Bootstrap foundation
+@import 'font-awesome/font-awesome';
 
 // Override necessary Bootstrap variables
 @import 'racker/variables';
@@ -11,4 +14,3 @@
 @import 'racker/navigation';
 @import 'racker/layout';
 @import 'racker/home';
-@import 'racker/responsive';
