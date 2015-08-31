@@ -90,18 +90,18 @@
   </div> <!-- /container -->
 </section>
 
-<nav class="navbar">
+<nav class="navbar-nav">
   <div class="container">
 
     <!-- mobile search and nav buttons -->
     <div class="mobile-nav visible-xs">
-      <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
+      <btn class="btn" data-toggle="collapse" data-target=".navbar-collapse">
         <i class="icon-reorder"></i>
       </btn>
       <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
         <i class="icon-search"></i>
       </btn>
-      <div class="nav-collapse collapse">
+      <div class="navbar-collapse collapse">
         <div class="nav">
           <?php print render($page['navigation']); ?>
         </div>
@@ -120,7 +120,7 @@
         <div class="subtitle">Scientist and Artist</a> <span class="divider">|</span> <span class="dates">June 28, 1913 - September 9, 1991</span></div>
       </div>
       <div class="col-sm-7 main-navigation hidden-xs">
-        <div class="nav-collapse collapse">
+        <div class="navbar-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
           </div>

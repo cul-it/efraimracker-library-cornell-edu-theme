@@ -7971,13 +7971,13 @@ img.pull-right {
     width: 1170px; }
   .navbar .brand {
     float: none;
-    font-size: 3em;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     text-decoration: none; }
   .navbar .subtitle {
     color: #c4e7ed;
-    font-size: 1.25em;
+    font-size: 18px;
     font-style: italic;
     font-weight: 300;
     margin-top: 10px; }
