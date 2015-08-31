@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 search-box visible-xs">
+      <div class="col-sm-4 search-box hidden-xs">
         <?php print render($page['search_box']); ?>
       </div>
     </div> <!-- /row -->
@@ -95,31 +95,31 @@
 
     <!-- mobile search and nav buttons -->
     <div class="mobile-nav">
-      <btn class="btn visible-phone" data-toggle="collapse" data-target=".nav-collapse">
+      <btn class="btn visible-xs" data-toggle="collapse" data-target=".nav-collapse">
         <i class="icon-reorder"></i>
       </btn>
-      <btn class="btn btn-search visible-phone" data-toggle="collapse" data-target=".search-collapse">
+      <btn class="btn btn-search visible-xs" data-toggle="collapse" data-target=".search-collapse">
         <i class="icon-search"></i>
       </btn>
-      <div class="nav-collapse collapse visible-phone">
+      <div class="nav-collapse collapse visible-xs">
         <div class="nav">
           <?php print render($page['navigation']); ?>
         </div>
       </div>
-      <div class="search-collapse collapse visible-phone">
+      <div class="search-collapse collapse visible-xs">
         <?php print render($page['search_box']); ?>
       </div>
     </div>
 
 
     <div class="row">
-      <div class="span5">
+      <div class="col-sm-5">
         <?php if ($site_name): ?>
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <div class="subtitle">Scientist and Artist</a> <span class="divider">|</span> <span class="dates">June 28, 1913 - September 9, 1991</span></div>
       </div>
-      <div class="span7 main-navigation hidden-phone">
+      <div class="col-sm-7 main-navigation hidden-xs">
         <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
@@ -151,7 +151,7 @@
     <!--if there is a sidebar, then create two column layout-->
     <?php if ($sidebar): ?>
       <div class="row">
-        <div class="span8">
+        <div class="col-sm-8">
           <?php print render($page['highlighted']); ?>
           <?php print $messages; ?>
           <?php print render($tabs); ?>
@@ -164,7 +164,7 @@
           <?php endif; ?>
           <?php print render($page['content']); ?>
         </div>
-        <div class="span4 sidebar">
+        <div class="col-sm-4 sidebar">
           <?php print $sidebar; ?>
         </div>
       </div>

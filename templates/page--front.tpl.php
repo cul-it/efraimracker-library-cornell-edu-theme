@@ -112,13 +112,13 @@
     </div>
 
     <div class="row">
-      <div class="span5">
+      <div class="col-sm-5">
         <?php if ($site_name): ?>
           <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <div class="subtitle">Scientist and Artist</a> <span class="divider">|</span> <span class="dates">June 28, 1913 - September 9, 1991</span></div>
       </div>
-      <div class="span7 main-navigation hidden-phone">
+      <div class="col-sm-7 main-navigation hidden-xs">
         <div class="nav-collapse collapse">
           <div class="nav">
             <?php print render($page['navigation']); ?>
@@ -150,15 +150,15 @@
     }?>
 
     <div class="row">
-      <div class="span4">
+      <div class="col-sm-4">
         <div class="about-racker">
           <?php print render($page['home_about']); ?>
         </div>
       </div>
-      <div class="span4 albums">
+      <div class="col-sm-4 albums">
         <?php print render($page['home_albums']); ?>
       </div>
-      <div class="span4 lecture-series">
+      <div class="col-sm-4 lecture-series">
         <?php print render($page['home_lectures']); ?>
       </div>
     </div>
