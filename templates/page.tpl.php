@@ -90,7 +90,7 @@
   </div> <!-- /container -->
 </section>
 
-<nav class="navbar-nav">
+<nav class="navbar">
   <div class="container">
 
     <!-- mobile search and nav buttons -->
@@ -102,7 +102,7 @@
         <i class="icon-search"></i>
       </btn>
       <div class="navbar-collapse collapse">
-        <div class="nav">
+        <div class="navbar-nav">
           <?php print render($page['navigation']); ?>
         </div>
       </div>
