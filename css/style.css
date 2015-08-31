@@ -7963,47 +7963,47 @@ img.pull-right {
 .btn {
   font-family: "Open Sans"; }
 
-.navbar-nav {
+.navbar {
   padding: 30px 0;
   background: #7ca0a6;
   margin-bottom: 0; }
-  .navbar-nav .brand {
+  .navbar .brand {
     float: none;
     font-size: 40px;
     color: white;
     font-weight: 600;
     text-decoration: none; }
-  .navbar-nav .subtitle {
+  .navbar .subtitle {
     color: #c4e7ed;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
     margin-top: 10px; }
-    .navbar-nav .subtitle .divider {
+    .navbar .subtitle .divider {
       color: #8eb7be; }
-  .navbar-nav .nav {
+  .navbar .navbar-nav {
     float: right;
     margin: 10px 0 0 0; }
-    .navbar-nav .nav li a {
+    .navbar .navbar-nav li a {
       text-shadow: 0 0 0;
       color: #2c4f54;
       font-size: 1.125em;
       padding: 5px 10px;
       border-left: 1px solid #a0c5cb; }
-    .navbar-nav .nav li a:hover {
+    .navbar .navbar-nav li a:hover {
       color: #13363c;
       background: #a5cfd6; }
-    .navbar-nav .nav li .active,
-    .navbar-nav .nav li .active:hover {
+    .navbar .navbar-nav li .active,
+    .navbar .navbar-nav li .active:hover {
       color: white;
       background-color: inherit;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none; }
-    .navbar-nav .nav li:first-child a {
+    .navbar .navbar-nav li:first-child a {
       border: none; }
-    .navbar-nav .nav li.active-trail a,
-    .navbar-nav .nav li.active-trail a:hover {
+    .navbar .navbar-nav li.active-trail a,
+    .navbar .navbar-nav li.active-trail a:hover {
       color: white;
       background-color: inherit;
       -webkit-box-shadow: none;
