@@ -94,8 +94,8 @@
   <div class="container">
 
     <!-- mobile search and nav buttons -->
-    <div class="mobile-nav">
-      <btn class="btn visible-xs" data-toggle="collapse" data-target=".nav-collapse">
+    <div class="mobile-nav visible-xs">
+      <btn class="btn" data-toggle="collapse" data-target=".nav-collapse">
         <i class="icon-reorder"></i>
       </btn>
       <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
