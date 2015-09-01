@@ -68,6 +68,12 @@ footer {
 	a:hover { 
 		color: white; }
 	p { font-size: 14px; }
+	.nav > li > a {
+		padding: 5px 10px;
+	}
+	.nav : li:first-child > a {
+		padding-left: 0;
+	}
 }
 
 /* Albums page */
