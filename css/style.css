@@ -7987,7 +7987,6 @@ img.pull-right {
     .navbar .navbar-nav li a {
       text-shadow: 0 0 0;
       color: #2c4f54;
-      font-size: 1.125em;
       padding: 5px 10px;
       border-left: 1px solid #a0c5cb; }
     .navbar .navbar-nav li a:hover {
@@ -8039,6 +8038,9 @@ img.pull-right {
 .sidebar .menu a.active:hover {
   background: #13363c; }
 
+@media (min-width: 768px) {
+  .nav > li {
+    float: left; } }
 /* Institution branding */
 /*------------------------------*/
 .institution-brand {

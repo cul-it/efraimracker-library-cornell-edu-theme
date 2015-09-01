@@ -24,7 +24,7 @@
 			a {
 				text-shadow: 0 0 0;
 				color: $primaryColorDark; 
-				font-size: 1.125em;
+				// font-size: 16px;
 				padding: 5px 10px;
 				border-left: 1px solid #a0c5cb; }
 			a:hover { 
@@ -83,3 +83,21 @@
 			background: $darkTeal; }
 	}
 }
+
+// MEDIA QUERIES
+// -------------------------
+
+// Small devices (tablets, 768px and up) 
+@media (min-width: $screen-sm) { 
+	.nav > li {
+		float: left;
+	}
+}
+
+// Medium devices (desktops, 992px and up) 
+// @media (min-width: $screen-md) {
+// }
+
+// Large devices (desktops, 1200px and up) 
+// @media (min-width: $screen-lg) {
+// }
