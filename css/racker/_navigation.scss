@@ -24,7 +24,7 @@
 			a {
 				text-shadow: 0 0 0;
 				color: $primaryColorDark; 
-				// font-size: 16px;
+				font-size: 16px;
 				padding: 5px 10px;
 				border-left: 1px solid #a0c5cb; }
 			a:hover { 
@@ -56,7 +56,7 @@
 /* Subnav */
 /*------------------------------*/
 .nav-header {
-	font-size: 1.1em;
+	font-size: 18px
 	padding: 0 0 0 40px;
 	margin-top: 110px;
 	font-weight: 600;
@@ -66,7 +66,7 @@
 .sidebar {
 	.menu {
 		li { 
-			font-size: 1.1em;
+			font-size: 16px;
 			padding-left: 40px; }
 		a {
 			display: inline-block;
