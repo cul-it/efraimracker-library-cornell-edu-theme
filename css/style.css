@@ -7913,7 +7913,9 @@ h3 {
   color: #13363c;
   font-weight: 400; }
 
-.main-content p, .main-content li {
+.featured-content p, .featured-content li,
+.main-content p,
+.main-content li {
   line-height: 1.6em;
   font-size: 16px; }
 
@@ -8250,12 +8252,12 @@ form.webform-client-form {
 /*------------------------------*/
 .about-racker p.text {
   float: right;
-  width: 65%; }
+  width: 65%;
+  font-size: 14px; }
 .about-racker p.portrait {
   float: left;
   margin-right: 10px; }
 .about-racker .emphasize {
-  font-size: 110%;
   font-weight: 600; }
 .about-racker .text-right {
   clear: both; }

@@ -44,13 +44,15 @@
 .about-racker {
 	p.text { 
 		float: right;
-		width: 65%; }
+		width: 65%;
+		font-size: 14px;
+	}
 	p.portrait {
 		float: left;
 		margin-right: 10px; }
 	.emphasize {
-		font-size: 110%;
-		font-weight: 600; }
+		font-weight: 600;
+	}
 	.text-right { clear: both; }
 }
 
