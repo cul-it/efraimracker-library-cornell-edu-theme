@@ -120,7 +120,7 @@
       </div>
       <div class="col-sm-7 main-navigation hidden-xs">
         <div class="navbar-collapse collapse">
-          <div class="nav">
+          <div class="navbar-nav">
             <?php print render($page['navigation']); ?>
           </div>
         </div>
