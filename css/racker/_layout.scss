@@ -46,9 +46,10 @@ footer {
 		margin: 0 0 1em;
 		li { 
 			display: inline-block;
-			// font-size: .875em;
 			border-left: 1px solid $primaryColor;
-			padding: 0 5px 0 10px; }
+			padding: 0 5px 0 10px;
+			font-size: 14px;
+		}
 		li:first-child { 
 			border-left: none;
 			padding-left: 0; }
@@ -66,7 +67,7 @@ footer {
 		text-decoration: none; }
 	a:hover { 
 		color: white; }
-	// p { font-size: .875em; }
+	p { font-size: 14px; }
 }
 
 /* Albums page */
