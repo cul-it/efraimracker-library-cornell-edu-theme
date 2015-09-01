@@ -25,7 +25,6 @@ h2 {
 	background: $secondaryColor;
 	color: white;
 	padding: 10px 20px ;
-	// font-size: 1.625em;
 	font-weight: 200;
 	line-height: 1.25em;
 	margin-bottom: 1em;
@@ -33,13 +32,15 @@ h2 {
 	display: inline-block; }
 h3 {
 	color: $darkTeal;
-	// font-size: 1.5em;
 	font-weight: 400; }
 
-p { line-height: 1.6em; }
 .main-content {
-	li { line-height: 1.6em; }
+	p, li {
+		line-height: 1.6em;
+	font-size: 16px;
+	}
 }
+
 // fix bug on search results page where header appears next to search box when no results
 .page-search-search-by-page {
 	form.pull-left { float: none; }

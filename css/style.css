@@ -7913,11 +7913,9 @@ h3 {
   color: #13363c;
   font-weight: 400; }
 
-p {
-  line-height: 1.6em; }
-
-.main-content li {
-  line-height: 1.6em; }
+.main-content p, .main-content li {
+  line-height: 1.6em;
+  font-size: 16px; }
 
 .page-search-search-by-page form.pull-left {
   float: none; }
@@ -7964,7 +7962,7 @@ img.pull-right {
   font-family: "Open Sans"; }
 
 .navbar {
-  padding: 30px 0;
+  padding: 20px 0;
   background: #7ca0a6;
   margin-bottom: 0; }
   .navbar .brand {
@@ -8237,7 +8235,6 @@ form.webform-client-form {
     background: #d89a45;
     color: white;
     padding: 5px 10px;
-    font-size: 1.625em;
     font-weight: 200;
     margin-bottom: 1em;
     text-align: center; }
@@ -8289,15 +8286,15 @@ form.webform-client-form {
   margin-bottom: 0.25em; }
 
 .lecture-info {
-  font-size: 0.75em;
+  font-size: 14px;
   color: #858888; }
 
 .lecture-series h4 {
   text-transform: uppercase;
   color: #740516;
-  font-size: .875em; }
+  font-size: 16px; }
 .lecture-series .date {
-  font-size: .75em; }
+  font-size: 12px; }
 .lecture-series .title {
   line-height: 1.2em;
   font-weight: 600;
@@ -8305,7 +8302,7 @@ form.webform-client-form {
 .lecture-series .speaker {
   margin-bottom: .5em; }
 .lecture-series .affiliation p {
-  font-size: .75em; }
+  font-size: 12px; }
 .lecture-series .well {
   padding: 5px 10px; }
 
