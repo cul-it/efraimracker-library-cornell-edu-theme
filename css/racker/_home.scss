@@ -79,9 +79,14 @@
 	img {
 		float: left;
 		margin-right: 10px;
-		width: 60px; }
+		width: 60px;
+		height: auto;
+	}
 }
-.lecture-title { margin-bottom: 0.25em; }
+.lecture-title { 
+	margin-bottom: 0.25em;
+	font-size: 16px;
+}
 .lecture-info {
 	font-size: 14px;
 	color: $mediumGray; }
