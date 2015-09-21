@@ -60,7 +60,10 @@
 	margin-top: 110px;
 	font-weight: 600;
 	color: $secondaryColor;
-	text-decoration: none; }
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: .5em;
+}
 .nav-header:hover { color: $secondaryColor; }
 .sidebar {
 	.menu {

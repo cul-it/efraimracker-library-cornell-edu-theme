@@ -8017,7 +8017,9 @@ img.pull-right {
   margin-top: 110px;
   font-weight: 600;
   color: #d89a45;
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: .5em; }
 
 .nav-header:hover {
   color: #d89a45; }
@@ -8071,6 +8073,9 @@ header {
 
 /* Sidebar on sub pages */
 /*------------------------------*/
+.sidebar {
+  margin-top: 2em; }
+
 .sidebar-image {
   text-align: center;
   margin: 60px 0; }
@@ -8303,7 +8308,7 @@ form.webform-client-form {
 .lecture-series h4 {
   text-transform: uppercase;
   color: #740516;
-  font-size: 16px; }
+  font-size: 14px; }
 .lecture-series .date {
   font-size: 12px; }
 .lecture-series .title {
