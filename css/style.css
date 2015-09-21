@@ -20,14 +20,13 @@
  *  Twitter: http://twitter.com/fortaweso_me
  *  Work: Lead Product Designer @ http://kyruus.com
  */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
 @font-face {
   font-family: 'FontAwesome';
   src: url("../font/fontawesome-webfont.eot?v=3.0.1");
   src: url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
 /*  Font Awesome styles
     ------------------------------------------------------- */
 [class^="icon-"],
@@ -233,38 +232,28 @@ ul.icons li [class*=" icon-"] {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
-
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
-
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
-
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg); }
-
   100% {
     -ms-transform: rotate(359deg); } }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
-
   100% {
     transform: rotate(359deg); } }
-
 @-moz-document url-prefix() {
   .icon-spin {
     height: .9em; }
@@ -277,7 +266,6 @@ ul.icons li [class*=" icon-"] {
 
   .btn .icon-spin.icon-large {
     height: .75em; } }
-
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
 .icon-glass:before {
@@ -1909,7 +1897,7 @@ body {
   font-size: 100%;
   font-family: "Open Sans";
   font-weight: 400;
-  color: #333333;
+  color: #333;
   background: #13363c;
   padding-top: 0 !important; }
 
@@ -2165,7 +2153,7 @@ footer {
 
 .view-lectures-new .lecture-info {
   font-size: 0.875em;
-  color: #333333; }
+  color: #333; }
 
 .lecture-speaker {
   margin-bottom: 0.25em; }
@@ -2599,3 +2587,5 @@ form.webform-client-form {
     #block-views-albums-block-2 .views-row .album-thumbnail img {
       width: 90px !important;
       height: 90px !important; } }
+
+/*# sourceMappingURL=style.css.map */
