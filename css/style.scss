@@ -1,14 +1,17 @@
-@import 'font-awesome';
-@import 'font-awesome-ie7';
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+
+@import 'racker/font-awesome';
+@import 'racker/font-awesome-ie7';
 
 // Override necessary Bootstrap variables
-@import 'variables';
+@import 'racker/variables';
 
 // Load partials
-@import 'cornell-brand';
-@import 'search';
-@import 'base';
-@import 'navigation';
-@import 'layout';
-@import 'home';
-@import 'responsive';
+@import 'racker/cornell-brand';
+@import 'racker/search';
+@import 'racker/base';
+@import 'racker/navigation';
+@import 'racker/layout';
+@import 'racker/home';
+@import 'racker/responsive';
