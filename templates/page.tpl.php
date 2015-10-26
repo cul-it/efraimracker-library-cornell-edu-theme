@@ -133,9 +133,9 @@
 <header>
   <div class="container">
     <?php  if (!empty($section_title)): ?>
-      <img src="/sites/all/themes/bootstrap_racker/images/header-<?php print $section_title; ?>.jpg" alt="">
+      <img src="/sites/all/themes/bootstrap_racker/images/header-<?php print $section_title; ?>.jpg" alt="" class="img-responsive">
     <?php else: ?>
-      <img src="/sites/all/themes/bootstrap_racker/images/header.jpg" alt=""> 
+      <img src="/sites/all/themes/bootstrap_racker/images/header.jpg" alt="" class="img-responsive"> 
     <?php endif; ?>
   </div>
 </header>
