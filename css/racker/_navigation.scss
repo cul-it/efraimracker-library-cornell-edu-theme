@@ -78,10 +78,12 @@
 			color: white;
 			margin-bottom: 5px;
 		}
-		a:hover { 
+		a:hover, a:focus, a:active { 
 			background: $darkTeal; }
 		a.active,
-		a.active:hover { 
+		a.active:hover,
+		a.active:focus,
+		a.active:active { 
 			background: $darkTeal; }
 	}
 }

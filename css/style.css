@@ -7881,7 +7881,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
   padding: 7px 12px !important; }
 
 body {
-  font-size: 100%;
   font-family: "Open Sans";
   font-weight: 400;
   color: #333;
@@ -7917,7 +7916,14 @@ h3 {
 .main-content p,
 .main-content li {
   line-height: 1.6em;
-  font-size: 16px; }
+  font-size: 14px; }
+.featured-content th,
+.main-content th {
+  font-size: 12px;
+  text-transform: uppercase; }
+.featured-content td,
+.main-content td {
+  font-size: 14px; }
 
 .page-search-search-by-page form.pull-left {
   float: none; }
@@ -8034,10 +8040,12 @@ img.pull-right {
   background: #38818d;
   color: white;
   margin-bottom: 5px; }
-.sidebar .menu a:hover {
+.sidebar .menu a:hover, .sidebar .menu a:focus, .sidebar .menu a:active {
   background: #13363c; }
 .sidebar .menu a.active,
-.sidebar .menu a.active:hover {
+.sidebar .menu a.active:hover,
+.sidebar .menu a.active:focus,
+.sidebar .menu a.active:active {
   background: #13363c; }
 
 @media (min-width: 768px) {
@@ -8144,10 +8152,11 @@ footer {
   margin-top: .25em; }
 
 .view-lectures-new .lecture-info {
-  color: #333; }
+  color: #333;
+  margin-bottom: .5em; }
 
 .lecture-speaker {
-  margin-bottom: 0.25em; }
+  font-size: 16px; }
 
 .speaker-info {
   margin: 30px 0; }
@@ -8155,7 +8164,7 @@ footer {
     margin-bottom: 1em; }
 
 .speaker-name {
-  font-size: 1.1em;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: .5em; }
 
@@ -8188,18 +8197,16 @@ footer {
 /*------------------------------*/
 .about-slideshow {
   background: #e4eef0;
-  text-align: center;
-  width: 410px;
-  margin: 0 30px 30px 0; }
+  text-align: center; }
   .about-slideshow .caption {
     margin-top: .5em;
-    font-size: 0.875em; }
+    font-size: 14px; }
   .about-slideshow img {
     padding: 0;
     border: 0; }
   .about-slideshow .views-slideshow-controls-top {
     margin-bottom: .5em;
-    font-size: .75em; }
+    font-size: 14px; }
 
 /* Webforms */
 /*------------------------------*/

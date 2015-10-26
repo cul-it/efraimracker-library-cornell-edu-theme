@@ -1,5 +1,5 @@
 body {
-	font-size: 100%;
+	// font-size: 100%;
 	font-family: $baseFontFamily;
 	font-weight: 400;
 	color: $textColorDark;
@@ -38,7 +38,14 @@ h3 {
 .main-content {
 	p, li {
 		line-height: 1.6em;
-	font-size: 16px;
+		font-size: 14px;
+	}
+	th {
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	td {
+		font-size: 14px;
 	}
 }
 
