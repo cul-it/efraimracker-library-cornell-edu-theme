@@ -52,3 +52,25 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
   padding: 7px 12px !important;
 }
+
+.search-collapse {
+  padding: 10px 0;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+// Small devices (tablets, 768px and up) 
+@media (min-width: $screen-sm) { 
+  .search-collapse {
+    padding: 0;
+  }
+}
+
+// Medium devices (desktops, 992px and up) 
+// @media (min-width: $screen-md) {
+// }
+
+// Large devices (desktops, 1200px and up) 
+// @media (min-width: $screen-lg) {
+// }

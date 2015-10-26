@@ -7880,6 +7880,12 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
   padding: 7px 12px !important; }
 
+.search-collapse {
+  padding: 10px 0; }
+
+@media (min-width: 768px) {
+  .search-collapse {
+    padding: 0; } }
 body {
   font-family: "Open Sans";
   font-weight: 400;
@@ -7975,6 +7981,13 @@ img.pull-right {
 .btn {
   font-family: "Open Sans"; }
 
+.mobile-nav {
+  text-align: right; }
+
+.navbar-collapse {
+  border: 0;
+  box-shadow: none; }
+
 .navbar {
   padding: 20px 0;
   background: #7ca0a6;
@@ -7993,24 +8006,24 @@ img.pull-right {
     .navbar .subtitle .divider {
       color: #8eb7be; }
   .navbar .navbar-nav {
-    float: right;
-    margin: 10px 0 0 0; }
-    .navbar .navbar-nav li a {
-      text-shadow: 0 0 0;
-      color: #2c4f54;
-      font-size: 16px;
-      padding: 5px 10px;
-      border-left: 1px solid #a0c5cb; }
-    .navbar .navbar-nav li a:hover {
-      color: #13363c;
-      background: #a5cfd6; }
-    .navbar .navbar-nav li .active,
-    .navbar .navbar-nav li .active:hover {
-      color: white;
-      background-color: inherit;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none; }
+    margin: 10px 0 0 0;
+    background: white; }
+    .navbar .navbar-nav li {
+      text-align: left; }
+      .navbar .navbar-nav li a {
+        text-shadow: 0 0 0;
+        color: #2c4f54;
+        padding: 5px 10px; }
+      .navbar .navbar-nav li a:hover {
+        color: #13363c;
+        background: #a5cfd6; }
+      .navbar .navbar-nav li .active,
+      .navbar .navbar-nav li .active:hover {
+        color: white;
+        background-color: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none; }
     .navbar .navbar-nav li:first-child a {
       border: none; }
     .navbar .navbar-nav li.active-trail a,
@@ -8056,7 +8069,24 @@ img.pull-right {
 
 @media (min-width: 768px) {
   .nav > li {
-    float: left; } }
+    float: left; }
+
+  .navbar .subtitle {
+    font-size: 12px; }
+  .navbar .navbar-nav {
+    float: right;
+    background: inherit; }
+    .navbar .navbar-nav li a {
+      font-size: 12px;
+      border-left: 1px solid #a0c5cb; } }
+@media (min-width: 992px) {
+  .navbar .subtitle {
+    font-size: 15px; }
+  .navbar .navbar-nav li a {
+    font-size: 16px; } }
+@media (min-width: 1200px) {
+  .navbar .subtitle {
+    font-size: 18px; } }
 /* Institution branding */
 /*------------------------------*/
 .institution-brand {
@@ -8313,8 +8343,6 @@ form.webform-client-form {
 /* About Racker */
 /*------------------------------*/
 .about-racker p.text {
-  float: right;
-  width: 65%;
   font-size: 14px; }
 .about-racker p.portrait {
   float: left;

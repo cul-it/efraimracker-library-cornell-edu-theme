@@ -95,11 +95,11 @@
 
     <!-- mobile search and nav buttons -->
     <div class="mobile-nav visible-xs">
-      <btn class="btn" data-toggle="collapse" data-target=".navbar-collapse">
-        <i class="icon-reorder"></i>
+      <btn class="btn btn-default" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars"></i>
       </btn>
-      <btn class="btn btn-search" data-toggle="collapse" data-target=".search-collapse">
-        <i class="icon-search"></i>
+      <btn class="btn btn-default" data-toggle="collapse" data-target=".search-collapse">
+        <i class="fa fa-search"></i>
       </btn>
       <div class="navbar-collapse collapse">
         <div class="navbar-nav">

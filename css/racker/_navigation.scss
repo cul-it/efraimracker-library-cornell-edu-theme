@@ -1,3 +1,16 @@
+// Mobile nav
+// --------------------
+.mobile-nav {
+	text-align: right;
+}
+.navbar-collapse {
+	border: 0;
+	box-shadow: none;
+}
+
+// Navbar
+// -------------
+
 .navbar {
 	padding: 20px 0;
 	background: $primaryColor;
@@ -17,15 +30,15 @@
 		.divider { color: #8eb7be; }
 	}
 	.navbar-nav {
-		float: right;
 		margin: 10px 0 0 0;
+		background: white;
 		li {
+			text-align: left;
 			a {
 				text-shadow: 0 0 0;
 				color: $primaryColorDark; 
-				font-size: 16px;
 				padding: 5px 10px;
-				border-left: 1px solid #a0c5cb; }
+			}
 			a:hover { 
 				color: $darkTeal;
 				background: $lightTeal; }
@@ -96,12 +109,44 @@
 	.nav > li {
 		float: left;
 	}
+	.navbar {
+		.subtitle {
+			font-size: 12px;
+		}
+		.navbar-nav {
+			float: right;
+			background: inherit;
+			li {
+				a {
+					font-size: 12px;
+					border-left: 1px solid #a0c5cb;
+				}
+			}
+		}
+	}
 }
 
 // Medium devices (desktops, 992px and up) 
-// @media (min-width: $screen-md) {
-// }
+@media (min-width: $screen-md) {
+	.navbar {
+		.subtitle {
+			font-size: 15px;
+		}
+		.navbar-nav {
+			li {
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
 
 // Large devices (desktops, 1200px and up) 
-// @media (min-width: $screen-lg) {
-// }
+@media (min-width: $screen-lg) {
+	.navbar {
+		.subtitle {
+			font-size: 18px;
+		}
+	}
+}
