@@ -7925,6 +7925,12 @@ h3 {
 .main-content td {
   font-size: 14px; }
 
+h4 {
+  margin-top: 20px; }
+
+h4:first-child {
+  margin-top: 0; }
+
 .page-search-search-by-page form.pull-left {
   float: none; }
 
@@ -8156,7 +8162,7 @@ footer {
   margin-bottom: .5em; }
 
 .lecture-speaker {
-  font-size: 16px; }
+  font-size: 18px; }
 
 .speaker-info {
   margin: 30px 0; }
@@ -8211,10 +8217,12 @@ footer {
 /* Webforms */
 /*------------------------------*/
 form.webform-client-form {
+  margin-top: 1em;
   padding: 30px;
   background: #e4eef0; }
   form.webform-client-form .description {
-    font-size: .75em; }
+    font-size: 12px;
+    margin-top: .5em; }
   form.webform-client-form .webform-component {
     margin: 0 0 1em; }
   form.webform-client-form .form-radios {
@@ -8222,6 +8230,41 @@ form.webform-client-form {
   form.webform-client-form input,
   form.webform-client-form textarea {
     font-family: "Open Sans"; }
+
+.form-email {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  .form-email:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  .form-email::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  .form-email:-ms-input-placeholder {
+    color: #999; }
+  .form-email::-webkit-input-placeholder {
+    color: #999; }
+  .form-email[disabled], .form-email[readonly], fieldset[disabled] .form-email {
+    background-color: #eeeeee;
+    opacity: 1; }
+  .form-email[disabled], fieldset[disabled] .form-email {
+    cursor: not-allowed; }
 
 /* Transcript */
 /*------------------------------*/

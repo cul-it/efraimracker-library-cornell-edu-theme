@@ -48,6 +48,12 @@ h3 {
 		font-size: 14px;
 	}
 }
+h4 {
+	margin-top: 20px;
+}
+h4:first-child {
+	margin-top: 0;
+}
 
 // fix bug on search results page where header appears next to search box when no results
 .page-search-search-by-page {
