@@ -238,3 +238,26 @@ form.webform-client-form {
 		margin-left: 0;
 		margin-bottom: 1em; }
 }
+
+// MEDIA QUERIES
+// -------------------------
+
+// Small devices (tablets, 768px and up) 
+@media (min-width: $screen-sm) { 
+  	.video-player > div {
+		width: 250px !important;
+		height: 192px !important; }
+	}
+}
+
+// Medium devices (desktops, 992px and up) 
+@media (min-width: $screen-md) {
+	.video-player > div {
+		width: 560px !important;
+		height: 395px !important; }
+	}
+}
+
+// Large devices (desktops, 1200px and up) 
+// @media (min-width: $screen-lg) {
+// }
