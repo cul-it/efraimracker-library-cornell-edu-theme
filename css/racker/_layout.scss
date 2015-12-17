@@ -147,9 +147,7 @@ footer {
 	color: $secondaryColor;
 	text-transform: uppercase;
 	font-weight: 700; }
-.video-player {
-	object, iframe { margin: 0 auto; }
-}
+.video-player > div { margin: 0 auto; }
 .missing-captions {
 	font-size: .75em;
 	color: #999;
