@@ -8222,7 +8222,7 @@ footer {
   text-transform: uppercase;
   font-weight: 700; }
 
-.video-player object {
+.video-player object, .video-player iframe {
   margin: 0 auto; }
 
 .missing-captions {

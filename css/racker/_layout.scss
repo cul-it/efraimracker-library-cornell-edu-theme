@@ -148,7 +148,7 @@ footer {
 	text-transform: uppercase;
 	font-weight: 700; }
 .video-player {
-	object { margin: 0 auto; }
+	object, iframe { margin: 0 auto; }
 }
 .missing-captions {
 	font-size: .75em;
