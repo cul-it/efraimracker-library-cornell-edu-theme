@@ -147,7 +147,11 @@ footer {
 	color: $secondaryColor;
 	text-transform: uppercase;
 	font-weight: 700; }
-.video-player > div { margin: 0 auto; }
+.video-player > div { 
+	margin: 0 auto;
+	width: 250px !important;
+	height: 192px !important;
+}
 .missing-captions {
 	font-size: .75em;
 	color: #999;
@@ -244,19 +248,15 @@ form.webform-client-form {
 
 // Small devices (tablets, 768px and up) 
 @media (min-width: $screen-sm) { 
-  	.video-player > div {
-		width: 250px !important;
-		height: 192px !important;
-	}
-}
-
-// Medium devices (desktops, 992px and up) 
-@media (min-width: $screen-md) {
 	.video-player > div {
 		width: 560px !important;
 		height: 395px !important;
 	}
 }
+
+// Medium devices (desktops, 992px and up) 
+// @media (min-width: $screen-md) {
+// }
 
 // Large devices (desktops, 1200px and up) 
 // @media (min-width: $screen-lg) {
